@@ -1,0 +1,665 @@
+id,calories,proteins,fat,carbohydrate,name,image
+1,431.0,8.3,14.7,62.9,Crunchy Oat Granola Tropical Fruits,https://images.openfoodfacts.org/images/products/501/047/734/6032/front_en.20.400.jpg
+2,227.26,4.57,10.11,29.37,Indo mie mi goreng instant noodle,https://images.openfoodfacts.org/images/products/008/968/617/0726/front_en.18.400.jpg
+3,475.0,8.75,21.2,61.2,Fried noodles Mi Goreng,https://images.openfoodfacts.org/images/products/008/968/612/0714/front_en.32.400.jpg
+4,65.0,0.6,3.2,8.1,Oat Milk,https://images.openfoodfacts.org/images/products/899/724/060/0041/front_en.9.400.jpg
+5,29.2,0.0,0.0,7.5,Teh Pucuk Melati,https://images.openfoodfacts.org/images/products/899/600/160/0146/front_id.21.400.jpg
+6,227.26,4.57,10.11,29.37,Mi Goreng Instant Fried Noodles,https://images.openfoodfacts.org/images/products/008/968/617/0924/front_id.27.400.jpg
+7,515.0,5.6,27.3,61.7,Pringles Sour Cream & Onion,https://images.openfoodfacts.org/images/products/888/646/710/0024/front_id.35.400.jpg
+8,365.0,7.0,0.8,85.0,Kelloggs Corn Flakes E-1B,https://images.openfoodfacts.org/images/products/885/275/630/3056/front_id.35.400.jpg
+9,520.0,4.0,28.0,60.0,Pringles,https://images.openfoodfacts.org/images/products/888/646/710/0017/front_en.41.400.jpg
+10,523.0,9.5,23.8,66.7,Pocky strawberry,No Image Available
+11,12.4,0.0,0.0,3.1,POCARI SWEAT 500 ml,https://images.openfoodfacts.org/images/products/899/703/556/3414/front_id.4.400.jpg
+12,445.0,9.9,20.7,50.9,"Carman's Super Berry Muesli Bars (Cranberry, Blueberry & Goji)",https://images.openfoodfacts.org/images/products/931/913/333/3574/front_en.26.400.jpg
+13,463.0,11.0,17.5,64.1,Noodles Chicken,https://images.openfoodfacts.org/images/products/899/496/300/2824/front_en.20.400.jpg
+14,420.0,9.0,17.0,57.0,Mi Goreng Perisa Asli,https://images.openfoodfacts.org/images/products/899/886/620/0301/front_en.73.400.jpg
+15,453.6,9.5,18.2,68.1,Pocky,https://images.openfoodfacts.org/images/products/885/101/921/0117/front_fr.11.400.jpg
+16,500.0,9.62,24.25,59.75,Mi goreng Fried Noodles,https://images.openfoodfacts.org/images/products/008/968/617/0733/front_en.19.400.jpg
+17,100.0,1.0,5.0,13.0,Malkist crackers,https://images.openfoodfacts.org/images/products/899/600/130/2026/front_en.16.400.jpg
+18,50.0,0.0,0.0,13.0,Teh kotak teh melati,https://images.openfoodfacts.org/images/products/899/800/904/0023/front_en.15.400.jpg
+19,478.0,8.7,19.6,69.6,Roma bisc kelapa 300G,https://images.openfoodfacts.org/images/products/899/600/130/1142/front_id.16.400.jpg
+20,60.0,3.2,3.2,4.8,Ultra Milk 1 liter,https://images.openfoodfacts.org/images/products/899/800/901/0613/front_en.30.400.jpg
+21,484.0,6.5,22.2,64.7,Ghost pepper,https://images.openfoodfacts.org/images/products/955/706/232/1662/front_en.10.400.jpg
+22,500.0,5.0,25.0,65.0,beng-beng,https://images.openfoodfacts.org/images/products/899/600/135/4124/front_en.18.400.jpg
+23,63.5,3.17,3.7,4.76,Bear Brand milk susu steril,https://images.openfoodfacts.org/images/products/899/269/640/4441/front_id.16.400.jpg
+24,539.0,6.3,30.9,57.5,Nutella,https://images.openfoodfacts.org/images/products/800/050/022/0412/front_en.26.400.jpg
+25,410.0,7.6,12.0,65.0,Milo Bar E-2B,https://images.openfoodfacts.org/images/products/590/002/002/9348/front_id.6.400.jpg
+26,423.0,2.0,1.0,99.0,Kecap Manis,https://images.openfoodfacts.org/images/products/899/999/900/2503/front_fr.3.400.jpg
+27,385.0,7.0,1.0,87.0,Corn Flakes,https://images.openfoodfacts.org/images/products/885/275/634/6053/front_en.54.400.jpg
+28,230.0,4.5,10.1,28.8,Instant noodles migoreng satay flavour,https://images.openfoodfacts.org/images/products/008/968/614/0743/front_en.3.400.jpg
+29,550.0,5.0,35.0,50.0,Rasa Rumput Laut (Nori Seaweed Flavour),https://images.openfoodfacts.org/images/products/008/968/659/6465/front_en.4.400.jpg
+30,24.0,0.0,0.0,6.0,POCARI SWEAT 350ml,https://images.openfoodfacts.org/images/products/899/703/556/3544/front_id.17.400.jpg
+31,382.0,8.0,2.3,79.2,Special K,https://images.openfoodfacts.org/images/products/885/275/630/4299/front.3.400.jpg
+32,50.0,0.0,0.0,11.4,You C1000 Vitamin Lemon,https://images.openfoodfacts.org/images/products/899/700/951/0017/front_id.22.400.jpg
+33,229.0,4.6,10.2,29.5,Instant noodles,https://images.openfoodfacts.org/images/products/008/968/617/1907/front_en.5.400.jpg
+34,45.7,0.0,0.0,12.0,Floridina Orange 350ML,https://images.openfoodfacts.org/images/products/899/886/650/0708/front_id.10.400.jpg
+35,400.0,14.3,10.0,68.6,Quaker Instant Oatmeal E-1B,https://images.openfoodfacts.org/images/products/955/617/480/2236/front_en.4.400.jpg
+36,462.0,9.89,17.6,64.8,Indomie Goreng Rendang 5X91G,https://images.openfoodfacts.org/images/products/008/968/691/0704/front_id.33.400.jpg
+37,48.0,3.6,1.2,5.2,Ultra Milk Low Fat,https://images.openfoodfacts.org/images/products/899/800/901/0637/front_en.3.400.jpg
+38,526.0,6.9,28.7,58.9,KitKat Chunky,https://images.openfoodfacts.org/images/products/955/600/123/9754/front_id.9.400.jpg
+39,80.0,3.0,2.0,12.0,Ultra milk coklat,https://images.openfoodfacts.org/images/products/899/800/901/0569/front_en.13.400.jpg
+40,450.0,5.0,10.0,85.0,Coffeemix 3 in 1,https://images.openfoodfacts.org/images/products/931/193/102/4036/front_id.37.400.jpg
+41,18.8,0.0,0.0,5.0,Teh Pucuk Harum Less Sugar,https://images.openfoodfacts.org/images/products/899/600/160/0252/front_en.3.400.jpg
+42,40.0,0.0,0.0,9.95,You c orange 140 ml,https://images.openfoodfacts.org/images/products/899/700/951/0055/front_id.16.400.jpg
+43,289.0,8.89,4.44,51.1,Sari roti double soft,https://images.openfoodfacts.org/images/products/899/290/795/2631/front_en.6.400.jpg
+44,76.9,1.54,0.0,16.9,Yogurt,https://images.openfoodfacts.org/images/products/899/299/411/0112/front_en.14.400.jpg
+45,70.0,1.0,3.0,10.0,PT Gloria Bisco,https://images.openfoodfacts.org/images/products/899/308/393/2141/front_id.3.400.jpg
+46,120.0,6.0,6.0,10.0,Ultra milk full cream 250 ml E-1B,No Image Available
+47,270.0,8.11,4.05,47.3,Roti Tawar,No Image Available
+48,367.0,6.67,0.0,83.3,Haribo happy cola,https://images.openfoodfacts.org/images/products/869/121/609/0446/front_id.13.400.jpg
+49,467.0,6.67,16.7,73.3,Nabati Bites Cheese Cream Wafer,https://images.openfoodfacts.org/images/products/899/317/553/5250/front_en.23.400.jpg
+50,438.0,6.25,12.5,78.1,ENERGEN SUSU,https://images.openfoodfacts.org/images/products/899/600/144/0124/front_id.60.400.jpg
+51,389.0,79.0,3.0,10.0,100% Whey Gold Standard,https://images.openfoodfacts.org/images/products/074/892/705/1261/front_en.19.400.jpg
+52,60.0,3.2,3.2,4.8,Indomilk UHT Full Cream Plain,https://images.openfoodfacts.org/images/products/899/300/700/0680/front_id.9.400.jpg
+53,100.0,0.0,0.0,27.0,cocacola,https://images.openfoodfacts.org/images/products/899/276/111/1519/front_id.6.400.jpg
+54,380.0,42.0,8.0,38.0,Organic black bean,No Image Available
+55,100.0,3.0,2.5,17.0,Real Good Susu UHT Sereal Cokelat,https://images.openfoodfacts.org/images/products/899/335/116/0757/front_id.3.400.jpg
+56,444.0,5.56,16.7,72.2,Superco (Malkist dengan Krim Rasa Cokelat),https://images.openfoodfacts.org/images/products/888/816/660/3431/front_id.11.400.jpg
+57,400.0,2.0,3.5,89.0,Mama suka japachae ori,https://images.openfoodfacts.org/images/products/899/510/270/7549/front_en.27.400.jpg
+58,342.0,2.63,10.5,55.3,SUSU BENDERA COKLAT,No Image Available
+59,90.0,0.0,0.0,23.0,NÜ Yoghurt Tea,https://images.openfoodfacts.org/images/products/899/238/814/5027/front_en.18.400.jpg
+60,375.0,12.5,10.4,62.5,Fitbar multigrain fruits delight,https://images.openfoodfacts.org/images/products/899/280/206/3012/front_en.26.400.jpg
+61,100.0,3.0,3.5,15.0,Tiramisu Delight,https://images.openfoodfacts.org/images/products/899/280/206/3302/front_en.4.400.jpg
+62,80.0,3.0,2.0,12.0,SUSU ULTRA MILK  COKLAT 250ML,https://images.openfoodfacts.org/images/products/899/800/901/0231/front_en.21.400.jpg
+63,120.0,0.0,0.0,30.0,Tebs sparkling mix pet,https://images.openfoodfacts.org/images/products/899/600/685/6715/front_en.10.400.jpg
+64,130.0,1.0,60.0,16.0,Oat milk,No Image Available
+65,51.4,0.0,0.0,12.0,Floridina Coco 350ml,https://images.openfoodfacts.org/images/products/899/886/620/2923/front_id.17.400.jpg
+66,400.0,5.0,5.0,85.0,Chocolatos,No Image Available
+67,70.0,1.0,0.0,11.0,Riches nabati 122,https://images.openfoodfacts.org/images/products/899/317/553/7285/front_id.4.400.jpg
+68,388.0,17.5,7.5,65.0,Anlene ACTIFIT 3X Cokelat,https://images.openfoodfacts.org/images/products/941/500/700/9801/front_id.18.400.jpg
+69,75.0,3.0,2.0,11.0,milku stroberi 200ml,https://images.openfoodfacts.org/images/products/899/886/620/2732/front_id.3.400.jpg
+70,37.5,7.5,5.0,47.5,sari roti sandwich pandan sarikaya,https://images.openfoodfacts.org/images/products/899/290/795/2594/front_id.3.400.jpg
+71,52.0,0.0,0.0,13.2,Buavita Orange Juice 250ml,https://images.openfoodfacts.org/images/products/899/800/904/2195/front_en.3.400.jpg
+72,267.0,0.0,0.0,66.7,ABC Sweet Soy Sauce Kecap Manis,https://images.openfoodfacts.org/images/products/071/184/411/0182/front_id.17.400.jpg
+73,433.0,3.33,6.67,86.7,ABC kopi susu,https://images.openfoodfacts.org/images/products/899/100/210/1630/front_id.5.400.jpg
+74,450.0,5.0,10.0,80.0,Good Day Mocacinno,https://images.openfoodfacts.org/images/products/899/100/210/3238/front_id.3.400.jpg
+75,468.0,10.4,20.8,58.4,Pop Mie Soto Ayam,https://images.openfoodfacts.org/images/products/008/968/606/0362/front_id.12.400.jpg
+76,0.8,0.0,0.0,19.0,Nü Green Tea Honey,https://images.openfoodfacts.org/images/products/899/238/810/1092/front_en.8.400.jpg
+77,120.0,1.0,30.0,24.0,Top chocolate,https://images.openfoodfacts.org/images/products/899/100/124/2273/front_en.4.400.jpg
+78,535.71,3.57,28.57,64.29,Plantain Chips (Yellow Banana Chips),https://images.openfoodfacts.org/images/products/890/407/170/4527/front_id.4.400.jpg
+79,388.0,0.0,0.0,97.0,Kaccha MANGO Bite (Bigger),https://images.openfoodfacts.org/images/products/890/171/911/9279/front_en.4.400.jpg
+80,60.0,1.0,1.25,11.0,Golda Dolce latte coffee 200,https://images.openfoodfacts.org/images/products/000/000/530/6150/front_id.5.400.jpg
+81,70.0,1.0,0.0,18.0,Konyaku Grain,https://images.openfoodfacts.org/images/products/899/723/570/0091/front_id.3.400.jpg
+82,666.67,29.63,55.56,11.11,Selected Roasted Almond,https://images.openfoodfacts.org/images/products/899/409/622/3905/front_en.3.400.jpg
+83,480.0,8.0,21.3,61.3,Pop mie pedas dower,https://images.openfoodfacts.org/images/products/008/968/606/7002/front_en.6.400.jpg
+84,265.82,8.86,1.9,48.1,Myroti gandum,https://images.openfoodfacts.org/images/products/899/404/601/0104/front_en.3.400.jpg
+85,500.0,8.33,16.7,66.7,Oishi Pillows Cokelat,https://images.openfoodfacts.org/images/products/899/700/430/1108/front_id.8.400.jpg
+86,600.0,5.0,40.0,55.0,Kinder joy,https://images.openfoodfacts.org/images/products/899/295/295/4093/front_en.10.400.jpg
+87,24.24,0.0,0.0,6.06,Hydro coco vita D 330 ml,https://images.openfoodfacts.org/images/products/899/700/978/1585/front_id.8.400.jpg
+88,57.8,3.11,3.11,4.44,Ff full cream 1 L,https://images.openfoodfacts.org/images/products/899/275/300/5499/front_id.7.400.jpg
+89,72.0,2.4,2.0,10.8,Indomilk UHT Chocolate,https://images.openfoodfacts.org/images/products/899/300/700/0086/front_id.4.400.jpg
+90,77.2,0.7,3.5,10.7,Coffee Oat Milk,https://images.openfoodfacts.org/images/products/899/724/060/0355/front_en.4.400.jpg
+91,480.0,8.0,24.0,58.7,Sedap Sedaap cup ayam jerit,https://images.openfoodfacts.org/images/products/899/886/620/2930/front_id.3.400.jpg
+92,461.0,11.3,20.0,57.4,Mie Sedaap Instant Bakmi Beef Yakiniku,https://images.openfoodfacts.org/images/products/899/886/620/3043/front_id.3.400.jpg
+93,80.0,3.0,2.25,11.0,milku coklat btl 200ML,https://images.openfoodfacts.org/images/products/899/886/620/2725/front_id.3.400.jpg
+94,80.0,3.2,2.4,12.0,ultra mimi kids coklat,https://images.openfoodfacts.org/images/products/899/800/901/0910/front_id.3.400.jpg
+95,65.0,0.5,3.0,8.0,Oat Side Full Cream,https://images.openfoodfacts.org/images/products/899/724/060/0256/front_id.3.400.jpg
+96,425.0,12.5,12.5,67.5,SGM Eksplor 3+ Cokelat,https://images.openfoodfacts.org/images/products/899/909/992/0769/front_id.3.400.jpg
+97,500.0,9.1,18.0,73.0,Pocky chocolate,https://images.openfoodfacts.org/images/products/899/004/400/0000/front_fr.19.400.jpg
+98,520.0,20.0,28.0,48.0,DK Sukro Oven rasa bawang,https://images.openfoodfacts.org/images/products/899/507/760/2696/front_id.7.400.jpg
+99,550.0,10.0,35.0,50.0,Silverqueen Chunky bar,https://images.openfoodfacts.org/images/products/899/100/111/1722/front_en.6.400.jpg
+100,28.1,0.0,0.0,6.88,Teh Gelas Cup,https://images.openfoodfacts.org/images/products/899/110/222/2006/front_id.7.400.jpg
+101,60.0,3.0,3.0,5.0,Diamond Full Cream Milk UHT,https://images.openfoodfacts.org/images/products/899/989/896/2540/front_en.10.400.jpg
+102,57.12,0.22,0.07,13.9,Zaiyeonun yogur apple 340ml,https://images.openfoodfacts.org/images/products/880/138/214/6926/front_en.4.400.jpg
+103,65.0,2.5,2.0,9.0,Greenfield uht extra vanila,https://images.openfoodfacts.org/images/products/899/335/112/2427/front_en.3.400.jpg
+104,400.0,29.3,5.33,60.0,L-men gain mass choco 225g,https://images.openfoodfacts.org/images/products/074/992/105/0120/front_en.6.400.jpg
+105,533.0,13.3,30.0,50.0,Peanut Pie,https://images.openfoodfacts.org/images/products/899/295/725/1579/front_en.3.400.jpg
+106,91.7,2.92,2.92,12.5,Cimory UHT Chocolate Milk,No Image Available
+107,100.0,1.0,2.5,18.0,Instant Coffee,https://images.openfoodfacts.org/images/products/899/886/662/3032/front_en.3.400.jpg
+108,500.0,0.0,25.0,68.75,Ahh siip,https://images.openfoodfacts.org/images/products/899/317/555/4879/front_en.3.400.jpg
+109,429.0,11.9,14.3,61.9,S-26® PROCAL GOLD® MULTIEXCEL αLipids System,https://images.openfoodfacts.org/images/products/899/926/948/1014/front_en.3.400.jpg
+110,120.0,5.0,7.0,10.0,Full Cream,https://images.openfoodfacts.org/images/products/899/275/312/0802/front_en.3.400.jpg
+111,458.82,9.41,21.18,58.82,Indomie Mi Goreng Fried Noodles,https://images.openfoodfacts.org/images/products/899/496/300/3876/front_en.3.400.jpg
+112,450.0,5.0,17.5,70.0,Kukis Kelapa coconut cookies,https://images.openfoodfacts.org/images/products/899/308/394/0023/front_id.9.400.jpg
+113,150.0,2.0,6.0,21.0,Pie Bis,https://images.openfoodfacts.org/images/products/888/816/634/3405/front_id.3.400.jpg
+114,83.33,1.25,1.25,15.42,Youghurt drink mix fruit - Cimory - Cimory - Cimory,https://images.openfoodfacts.org/images/products/899/320/066/1350/front_en.3.400.jpg
+115,236.11,13.89,16.67,6.94,Beef Wiener,https://images.openfoodfacts.org/images/products/899/320/066/1503/front_en.3.400.jpg
+116,188.0,12.5,18.8,37.5,Uleg Sambal Teri,https://images.openfoodfacts.org/images/products/899/181/880/1076/front_en.3.400.jpg
+117,120.0,18.0,10.0,10.0,Salam Chicken Meatball 500g,https://images.openfoodfacts.org/images/products/899/722/264/0072/front_en.3.400.jpg
+118,60.0,3.0,4.0,4.5,Diamond Fresh Milk,https://images.openfoodfacts.org/images/products/899/989/829/9035/front_en.3.400.jpg
+119,65.0,1.82,0.64,11.68,Nescafé coffee,https://images.openfoodfacts.org/images/products/899/269/652/6327/front_en.4.400.jpg
+120,76.2,2.86,1.9,11.4,Greenfields Chocolate UHT Milk,https://images.openfoodfacts.org/images/products/899/335/112/2946/front_en.3.400.jpg
+121,300.0,5.0,20.0,30.0,Wijen Samgrai,https://images.openfoodfacts.org/images/products/899/888/846/2169/front_en.3.400.jpg
+122,90.0,1.0,30.0,14.0,Tango,https://images.openfoodfacts.org/images/products/899/110/226/0732/front_en.3.400.jpg
+123,538.0,15.4,34.6,46.2,nuts & chocolate sea salt,https://images.openfoodfacts.org/images/products/899/721/787/0187/front_id.3.400.jpg
+124,457.0,20.2,21.5,52.5,Cackee Protein,https://images.openfoodfacts.org/images/products/490/133/074/7756/front_en.3.400.jpg
+125,75.0,2.5,2.25,11.5,Milk Life UHT Chocolate,https://images.openfoodfacts.org/images/products/899/199/911/0042/front_en.3.400.jpg
+126,75.0,2.0,2.25,11.5,Diamond UHT Chocolate,https://images.openfoodfacts.org/images/products/899/989/896/2557/front_en.3.400.jpg
+127,268.0,12.0,5.5,41.0,Muffins aux graines,https://images.openfoodfacts.org/images/products/899/007/109/4638/front_en.3.400.jpg
+128,98.23,8.8,5.0,4.5,Greek-style Yoghurt,https://images.openfoodfacts.org/images/products/693/180/680/1376/front_en.3.400.jpg
+129,334.85,9.2,10.9,49.5,Whole Grain Toast Bread,https://images.openfoodfacts.org/images/products/694/026/088/2418/front_en.3.400.jpg
+130,75.0,0.5,2.5,12.0,Caffino,https://images.openfoodfacts.org/images/products/899/199/811/7585/front_id.3.400.jpg
+131,87.5,5.0,3.75,7.5,Yogurt natural plain,https://images.openfoodfacts.org/images/products/899/340/680/5008/front_en.3.400.jpg
+132,466.67,6.67,13.33,66.67,Makaroni Krispi level 0 - Bon Cabe,https://images.openfoodfacts.org/images/products/899/589/921/3087/front_en.3.400.jpg
+133,480.4,6.6,18.2,72.0,Cream stick,https://images.openfoodfacts.org/images/products/899/600/135/6326/front_en.3.400.jpg
+134,467.0,10.0,20.0,66.7,Granola with Cashew - Chocolate Banana,https://images.openfoodfacts.org/images/products/899/703/300/2656/front_en.3.400.jpg
+135,650.0,15.0,30.0,95.0,Mocha granola,https://images.openfoodfacts.org/images/products/899/737/600/0340/front_en.3.400.jpg
+136,25.0,0.0,0.0,6.0,Aroma melati,https://images.openfoodfacts.org/images/products/899/800/904/0283/front_en.3.400.jpg
+137,458.33,4.17,14.58,75.0,Olai Slai,https://images.openfoodfacts.org/images/products/899/600/130/4020/front_en.3.400.jpg
+138,470.0,12.1,19.7,60.6,Mie sukses rendang,https://images.openfoodfacts.org/images/products/899/886/620/3555/front_en.3.400.jpg
+139,643.0,14.3,42.9,42.9,selai coklat kacang,https://images.openfoodfacts.org/images/products/899/595/200/8230/front_id.9.400.jpg
+140,433.33,20.0,50.0,26.67,Cashes nuts espresso,https://images.openfoodfacts.org/images/products/899/702/821/0882/front_en.3.400.jpg
+141,200.0,3.0,9.0,26.0,roma kelapa cream coklat,https://images.openfoodfacts.org/images/products/899/600/131/4005/front_id.11.400.jpg
+142,80.0,1.0,3.0,13.0,Caramel Macchiato Oat Milk,https://images.openfoodfacts.org/images/products/899/724/060/1154/front_en.3.400.jpg
+143,460.0,18.0,28.0,36.0,Instant Gado gado dressing,https://images.openfoodfacts.org/images/products/899/119/962/2352/front_pt.3.400.jpg
+144,425.0,7.5,17.5,55.0,Roti Isi Krim Meses,https://images.openfoodfacts.org/images/products/899/720/444/0003/front_en.4.400.jpg
+145,429.0,7.14,10.7,78.6,Hilo Chocolate,https://images.openfoodfacts.org/images/products/074/992/103/0146/front_en.3.400.jpg
+146,65.0,0.5,3.0,8.0,Oatside Oat Milk Barista Blend,https://images.openfoodfacts.org/images/products/899/724/060/0393/front_en.4.400.jpg
+147,321.0,7.55,11.3,49.1,Sobek Duo Cokelat Keju,https://images.openfoodfacts.org/images/products/899/290/799/6413/front_en.3.400.jpg
+148,500.0,10.0,20.0,70.0,Kuaci Biji Bunga Matahari Panggang (Roasted Sunflower Seeds Natural Flavor),https://images.openfoodfacts.org/images/products/692/418/789/7007/front_id.3.400.jpg
+149,341.0,23.3,6.13,50.3,Peanut Choco Crunch,https://images.openfoodfacts.org/images/products/899/721/077/0675/front_en.3.400.jpg
+150,456.0,10.5,17.5,66.7,Oat8 With Mung Beans,https://images.openfoodfacts.org/images/products/899/100/231/2166/front_en.3.400.jpg
+151,170.0,2.0,10.0,18.0,Berry Choco Max,https://images.openfoodfacts.org/images/products/888/501/313/1840/front_en.3.400.jpg
+152,412.0,22.0,3.2,74.0,Pro Gainer,https://images.openfoodfacts.org/images/products/899/723/050/0627/front_fr.4.400.jpg
+153,0.0,10.0,17.5,75.0,Fitbar fruit delight,https://images.openfoodfacts.org/images/products/899/280/206/3036/front_en.3.400.jpg
+154,0.0,2.0,5.0,11.0,Granola Creation,https://images.openfoodfacts.org/images/products/899/720/992/0050/front_en.3.400.jpg
+155,0.0,5.0,6.0,8.0,"Greek Yogurt, Plain",https://images.openfoodfacts.org/images/products/309/689/807/2233/front_en.3.400.jpg
+156,533.0,6.67,26.7,66.7,Majestic White Coffee,https://images.openfoodfacts.org/images/products/899/838/917/2383/front_id.3.400.jpg
+157,0.0,0.0,18.0,80.0,Pola Snack,https://images.openfoodfacts.org/images/products/888/816/684/2762/front_en.3.400.jpg
+158,169.23,0.0,7.69,0.0,Kenzler singles or,https://images.openfoodfacts.org/images/products/899/320/034/8312/front_en.3.400.jpg
+159,35.0,0.0,0.0,8.0,mizone activ lychee lemon,https://images.openfoodfacts.org/images/products/899/275/211/2013/front_id.3.400.jpg
+160,400.0,13.3,6.67,70.0,Organic Rolled Oats,https://images.openfoodfacts.org/images/products/899/702/912/0357/front_en.3.400.jpg
+161,900.0,0.0,100.0,0.0,Barco Coconut Oil,https://images.openfoodfacts.org/images/products/899/307/782/0409/front_en.3.400.jpg
+162,30.0,0.0,0.0,7.4,Lemon Water 500ml,https://images.openfoodfacts.org/images/products/899/700/951/0116/front_en.3.400.jpg
+163,50.0,0.56,1.94,7.78,Tora Cafe Iced Milky 180,https://images.openfoodfacts.org/images/products/899/600/160/0610/front_en.14.400.jpg
+164,500.0,4.55,20.5,72.7,Creammy Latte,https://images.openfoodfacts.org/images/products/899/866/600/1306/front_id.3.400.jpg
+165,451.0,6.59,15.4,70.3,Indomie Takoyaki,https://images.openfoodfacts.org/images/products/008/968/604/0128/front_en.32.400.jpg
+166,200.0,15.38,10.77,9.23,Sosis Sapi  &  Ayam Rasa Keju,https://images.openfoodfacts.org/images/products/899/320/034/6318/front_en.3.400.jpg
+167,166.67,13.33,8.33,10.0,Sosis Premium Smoked Bratwurst,https://images.openfoodfacts.org/images/products/899/311/000/2564/front_en.3.400.jpg
+168,170.0,20.0,7.0,9.0,OWYN Drink,https://images.openfoodfacts.org/images/products/089/903/299/7347/front_en.3.400.jpg
+169,533.0,13.3,26.7,53.3,Skippy Peanut Butter Wafer Cones,https://images.openfoodfacts.org/images/products/899/277/500/6016/front_en.3.400.jpg
+170,279.0,3.29,18.1,23.0,Potabee Selections Salted Egg,https://images.openfoodfacts.org/images/products/899/886/620/1728/front_en.3.400.jpg
+171,449.0,11.0,19.7,59.1,Nouilles Indomie Mie Goreng Jumbo,https://images.openfoodfacts.org/images/products/008/968/604/1767/front_id.27.400.jpg
+172,60.0,0.4,0.8,12.8,good day funtastic Mocachino,https://images.openfoodfacts.org/images/products/899/100/212/1010/front_id.4.400.jpg
+173,56.0,3.2,2.8,5.6,ultra mimi kids full cream,https://images.openfoodfacts.org/images/products/899/800/901/1696/front_en.3.400.jpg
+174,51.0,2.6,1.3,7.2,Dutch Lady Strawberry milk,https://images.openfoodfacts.org/images/products/955/616/605/8221/front_en.11.400.jpg
+175,460.0,18.0,28.0,36.0,Sambel Pecel Sedang,https://images.openfoodfacts.org/images/products/899/119/922/2194/front_id.3.400.jpg
+176,460.0,18.0,28.0,36.0,Sambel Pecel Pedas,https://images.openfoodfacts.org/images/products/899/119/912/2197/front_id.3.400.jpg
+177,428.57,11.43,11.43,65.71,"Instant Oatmeal (Dry, Uncooked)",https://images.openfoodfacts.org/images/products/899/702/018/0350/front_en.3.400.jpg
+178,0.0,1.0,1.75,10.5,Nu milk tea,https://images.openfoodfacts.org/images/products/899/238/813/3017/front_id.3.400.jpg
+179,350.0,10.0,30.0,20.0,Bumbu Nasi Goreng Indonesiia,https://images.openfoodfacts.org/images/products/899/273/521/0095/front_en.10.400.jpg
+180,80.0,3.2,2.4,11.2,ultra milk mini strawberry,https://images.openfoodfacts.org/images/products/899/800/901/0606/front_en.18.400.jpg
+181,28.6,0.0,0.0,6.86,Isoplus Coco 350ml,https://images.openfoodfacts.org/images/products/899/886/620/3531/front_id.14.400.jpg
+182,76.48,14.5,0.7,2.8,Yellowfin Tuna Chunk In Spring Water,https://images.openfoodfacts.org/images/products/955/610/690/0023/front_en.3.400.jpg
+183,130.0,1.0,4.0,23.0,FF SKM POUCH 280,https://images.openfoodfacts.org/images/products/899/275/372/1597/front_id.4.400.jpg
+184,350.0,20.0,0.0,65.0,Bento Mixed Seafood Snack,No Image Available
+185,600.0,32.0,48.0,16.0,Kacang Dua Kelinci,https://images.openfoodfacts.org/images/products/001/174/723/3033/front_id.3.400.jpg
+186,0.0,8.0,15.0,71.0,Rangginang Matang,https://images.openfoodfacts.org/images/products/899/340/802/0140/front_en.3.400.jpg
+187,150.0,0.0,0.0,0.0,Prickly Pear Wheat Ale,https://images.openfoodfacts.org/images/products/089/953/000/2529/front_en.3.400.jpg
+188,210.0,7.0,4.0,36.0,White Bread,https://images.openfoodfacts.org/images/products/000/000/003/5014/front_en.3.400.jpg
+189,100.0,3.0,3.0,17.0,Cimory Squeeze Original,https://images.openfoodfacts.org/images/products/899/320/066/6935/front_id.9.400.jpg
+190,120.0,2.0,2.5,22.0,golda coffee latte,https://images.openfoodfacts.org/images/products/899/886/620/1841/front_id.10.400.jpg
+191,560.0,4.0,32.0,60.0,Pringgless Cheesy Cheese 42g,https://images.openfoodfacts.org/images/products/888/646/710/5760/front_en.4.400.jpg
+192,342.86,5.71,0.0,80.0,Yogurt Gummy,https://images.openfoodfacts.org/images/products/899/274/190/6647/front_en.3.400.jpg
+193,294.0,5.88,18.8,24.7,Feel good crispy jalapeño bites,https://images.openfoodfacts.org/images/products/089/903/900/2761/front_en.3.400.jpg
+194,130.0,7.0,7.0,10.0,purefarm full cream E-1B,https://images.openfoodfacts.org/images/products/899/275/303/3744/front_en.22.400.jpg
+195,240.0,4.0,12.0,28.0,Croissant sweet mixed berries,https://images.openfoodfacts.org/images/products/899/720/467/0349/front_fr.3.400.jpg
+196,24.0,0.0,0.0,6.0,Coconut water,https://images.openfoodfacts.org/images/products/899/285/852/7308/front_id.12.400.jpg
+197,450.0,10.0,17.5,65.0,Baked vegan crackers - Onion & Garlic,https://images.openfoodfacts.org/images/products/899/723/357/0160/front_fr.3.400.jpg
+198,440.0,4.0,10.0,84.0,Hot Cocoa,https://images.openfoodfacts.org/images/products/899/100/140/0178/front_en.3.400.jpg
+199,480.0,12.0,24.0,60.0,Double rabbit,https://images.openfoodfacts.org/images/products/899/507/760/2214/front_fr.3.400.jpg
+200,340.0,5.0,0.0,80.0,Sweet Lychee,https://images.openfoodfacts.org/images/products/899/274/190/6258/front_fr.3.400.jpg
+201,32.0,0.0,0.0,8.0,ORANGE WATER 500ml,https://images.openfoodfacts.org/images/products/899/700/951/0123/front_en.13.400.jpg
+202,550.0,5.0,30.0,60.0,Blackmond,https://images.openfoodfacts.org/images/products/899/720/477/0094/front_fr.8.400.jpg
+203,444.0,11.1,16.7,62.2,Indomie Keriting Goreng Spesial,https://images.openfoodfacts.org/images/products/008/968/604/0647/front_en.10.400.jpg
+204,44.0,3.6,18.0,4.8,Green Fields Low Fat,https://images.openfoodfacts.org/images/products/899/335/112/8306/front_en.4.400.jpg
+205,464.29,7.14,21.43,67.86,Cornitos,https://images.openfoodfacts.org/images/products/899/700/663/7779/front_fr.3.400.jpg
+206,450.0,10.0,17.5,65.0,Boncabe Makaroni Krispi Level 10,https://images.openfoodfacts.org/images/products/899/589/921/4244/front_id.14.400.jpg
+207,100.0,1.0,1.0,23.0,Kapal Api Special Mix,https://images.openfoodfacts.org/images/products/899/100/210/5485/front_id.12.400.jpg
+208,64.0,1.6,1.2,11.2,Tummy yogurt,https://images.openfoodfacts.org/images/products/749/922/119/5160/front_fr.3.400.jpg
+209,450.0,5.0,15.0,75.0,Roma Marie Gold,https://images.openfoodfacts.org/images/products/899/600/130/0114/front_en.7.400.jpg
+210,390.0,9.2,16.1,66.7,Mie Sedaap Goreng Korean Spicy Chicken,https://images.openfoodfacts.org/images/products/899/886/620/2343/front_id.14.400.jpg
+211,60.0,4.0,5.0,1.0,Kraft Cheddar 160g,https://images.openfoodfacts.org/images/products/899/800/908/0500/front_id.19.400.jpg
+212,60.0,0.0,0.0,15.0,teh botol,https://images.openfoodfacts.org/images/products/899/600/685/6180/front_en.8.400.jpg
+213,100.0,7.0,3.0,12.0,Low Fat Fresh Milk,https://images.openfoodfacts.org/images/products/899/275/300/5475/front_en.4.400.jpg
+214,0.0,2.0,0.0,26.0,Ultra sari kacang hijau,https://images.openfoodfacts.org/images/products/899/800/905/0053/front_id.4.400.jpg
+215,20.0,0.0,0.0,4.8,Fanta,https://images.openfoodfacts.org/images/products/003/050/503/6075/front_en.3.400.jpg
+216,40.0,0.0,0.0,9.5,Fruit Tea Rasa Apel,No Image Available
+217,130.0,0.0,14.0,0.0,Soybean Oil Mama Suka,https://images.openfoodfacts.org/images/products/899/510/270/5101/front_en.3.400.jpg
+218,428.57,0.0,0.0,100.0,Marjan,https://images.openfoodfacts.org/images/products/899/888/811/0114/front_en.11.400.jpg
+219,35.0,0.0,0.0,8.5,NU Green Tea,https://images.openfoodfacts.org/images/products/899/238/810/1085/front_en.3.400.jpg
+220,48.0,0.4,0.8,10.4,Nutriboost orange 300ML,https://images.openfoodfacts.org/images/products/899/276/116/4539/front_id.3.400.jpg
+221,509.0,20.0,20.0,74.0,mi goreng fried noodles,https://images.openfoodfacts.org/images/products/008/968/617/0795/front_en.21.400.jpg
+222,100.0,1.0,3.0,18.0,Ff Kental manis bendera puch,https://images.openfoodfacts.org/images/products/899/275/300/4010/front_en.6.400.jpg
+223,354.37,8.05,1.95,76.55,Pasta gluten free,https://images.openfoodfacts.org/images/products/931/015/500/9577/front_fr.10.400.jpg
+224,64.0,3.2,3.6,4.8,GreenFields Full Cream Milk,https://images.openfoodfacts.org/images/products/899/335/112/1307/front_id.32.400.jpg
+225,428.0,10.0,14.2,65.0,Indomie Soto Mie,https://images.openfoodfacts.org/images/products/008/968/601/0343/front_id.3.400.jpg
+226,140.0,3.0,3.5,23.0,Silky Pudding,https://images.openfoodfacts.org/images/products/899/293/344/3219/front_en.12.400.jpg
+227,440.0,10.0,40.0,10.0,Prochiz Cheddar Royale 160g,https://images.openfoodfacts.org/images/products/899/701/445/0025/front_id.7.400.jpg
+228,10.0,1.0,1.5,9.0,Biscuit marie,No Image Available
+229,500.0,10.0,20.0,70.0,Nabati,https://images.openfoodfacts.org/images/products/899/317/553/7346/front_id.19.400.jpg
+230,361.0,8.8,8.2,63.1,Sichuan spicy stewed beef flavor,https://images.openfoodfacts.org/images/products/692/641/032/8128/front_en.6.400.jpg
+231,430.0,9.0,19.0,55.0,Indomie Mi Goreng ACEH,https://images.openfoodfacts.org/images/products/008/968/604/3204/front_en.3.400.jpg
+232,332.35,23.04,6.0,48.77,Healthy protein balls,https://images.openfoodfacts.org/images/products/899/721/077/0705/front_en.3.400.jpg
+233,233.33,0.0,23.33,6.67,Coconut milk,https://images.openfoodfacts.org/images/products/899/271/778/1230/front_en.3.400.jpg
+234,40.0,0.0,0.0,10.0,Coca Cola,https://images.openfoodfacts.org/images/products/899/276/100/2015/front_fr.4.400.jpg
+235,371.43,7.14,10.0,62.86,Nouille volcano chicken noodle,https://images.openfoodfacts.org/images/products/064/843/610/1283/front_en.54.400.jpg
+236,333.0,3.33,10.0,60.0,Bendera susu Kental Manis,https://images.openfoodfacts.org/images/products/899/275/303/1894/front_id.11.400.jpg
+237,520.0,4.0,28.0,60.0,Pringles Hot & Spicy,https://images.openfoodfacts.org/images/products/888/646/710/0055/front_id.23.400.jpg
+238,60.0,0.5,1.25,11.5,Abc Kopi Susu,https://images.openfoodfacts.org/images/products/899/100/212/2017/front_en.8.400.jpg
+239,2.15,0.0,45.0,7.0,Nextar brownies,https://images.openfoodfacts.org/images/products/899/317/554/0797/front_id.29.400.jpg
+240,516.13,6.45,25.81,64.52,Cream crackers,https://images.openfoodfacts.org/images/products/955/608/530/2726/front_en.7.400.jpg
+241,500.0,1.0,6.0,12.0,Mister Potato Crisps Roasted Beef,https://images.openfoodfacts.org/images/products/899/300/478/6853/front_id.17.400.jpg
+242,376.0,5.8,1.0,84.0,Swiss jungle crunch,https://images.openfoodfacts.org/images/products/761/002/305/3728/front_fr.3.400.jpg
+243,542.0,8.33,33.3,54.2,kalpa,https://images.openfoodfacts.org/images/products/899/600/135/4001/front_id.10.400.jpg
+244,50.0,0.5,0.5,11.0,Kapal Api Original Black Cofee,https://images.openfoodfacts.org/images/products/899/100/212/5001/front_en.3.400.jpg
+245,90.0,1.0,0.5,21.0,Gilus Mix Sweet Ginger,https://images.openfoodfacts.org/images/products/899/866/600/3072/front_en.3.400.jpg
+246,0.0,0.0,0.0,2.0,Diabtx,https://images.openfoodfacts.org/images/products/074/992/100/0323/front_en.3.400.jpg
+247,250.0,6.25,1.56,53.1,Milo cup,https://images.openfoodfacts.org/images/products/899/269/642/8287/front_en.5.400.jpg
+248,381.0,3.7,3.7,74.07,Mentos,https://images.openfoodfacts.org/images/products/899/080/002/0013/front_ru.10.400.jpg
+249,0.0,2.0,4.0,3.0,Kraft All in 1 160g,https://images.openfoodfacts.org/images/products/762/221/055/7858/front_id.3.400.jpg
+250,400.0,10.8,9.23,67.7,Lemonilo Mi Goreng,https://images.openfoodfacts.org/images/products/899/722/213/0016/front_en.4.400.jpg
+251,0.0,0.0,0.0,1.0,FROZZ,https://images.openfoodfacts.org/images/products/899/868/505/1306/front_id.4.400.jpg
+252,5.0,0.0,0.0,2.0,Nutrijell Jelly Powder,https://images.openfoodfacts.org/images/products/899/293/332/0114/front_en.17.400.jpg
+253,160.0,5.0,5.0,24.0,Frisian Flag Swiss Chocolate 946 ml,https://images.openfoodfacts.org/images/products/899/275/300/5482/front_id.7.400.jpg
+254,15.0,0.0,1.0,2.0,Fiber Creme,https://images.openfoodfacts.org/images/products/899/721/427/0041/front_id.18.400.jpg
+255,25.0,0.0,0.0,5.0,Indofood,https://images.openfoodfacts.org/images/products/008/968/640/0038/front_id.12.400.jpg
+256,500.0,10.0,20.0,70.0,Nabati White,https://images.openfoodfacts.org/images/products/899/317/553/9821/front_id.15.400.jpg
+257,120.0,0.0,0.0,30.0,Buavita Juice Jambu 245ml,https://images.openfoodfacts.org/images/products/899/800/902/0186/front_en.17.400.jpg
+258,150.0,2.0,6.0,21.0,Crispy Crackers,https://images.openfoodfacts.org/images/products/888/816/633/6568/front_id.3.400.jpg
+259,500.0,10.0,30.0,60.0,Chocolate Stick,https://images.openfoodfacts.org/images/products/899/600/137/0063/front_en.3.400.jpg
+260,566.67,13.33,33.33,50.0,Roasted Coasted Cashew,https://images.openfoodfacts.org/images/products/899/100/250/7685/front_en.3.400.jpg
+261,170.0,4.0,3.5,32.0,Doriyaki,https://images.openfoodfacts.org/images/products/899/290/795/2549/front_fr.3.400.jpg
+262,75.0,4.5,3.0,8.0,High Calcium Strawberry Milk,https://images.openfoodfacts.org/images/products/899/989/896/9846/front_id.3.400.jpg
+263,533.0,16.7,33.3,40.0,Soyjoy Choco Almond  E-2B,https://images.openfoodfacts.org/images/products/899/703/560/0928/front_id.7.400.jpg
+264,493.0,8.6,20.9,67.6,Indo mie Fried noodles,https://images.openfoodfacts.org/images/products/008/968/618/0633/front_en.19.400.jpg
+265,23.0,1.2,0.2,3.5,Ciao Italian Peeled Tomatos Sauce,https://images.openfoodfacts.org/images/products/800/440/211/0161/front_en.7.400.jpg
+266,0.0,0.1,0.0,0.2,Nestea Milk Tea Instant Mixed Powder 35G. Pack,No Image Available
+267,467.0,10.0,15.0,70.0,Fried Cookies,https://images.openfoodfacts.org/images/products/888/816/699/0104/front_en.12.400.jpg
+268,80.0,0.0,0.0,19.0,NÜ Green Tea Rasa Madu,https://images.openfoodfacts.org/images/products/899/238/810/1023/front_id.16.400.jpg
+269,60.0,3.0,3.0,5.0,Ultra Milk Full Cream,https://images.openfoodfacts.org/images/products/899/800/901/0552/front_en.5.400.jpg
+270,355.0,9.0,8.2,62.0,Monster Tropical Muesli,https://images.openfoodfacts.org/images/products/932/379/500/0187/front_en.17.400.jpg
+271,0.0,6.67,16.7,73.3,Twister Minis,https://images.openfoodfacts.org/images/products/899/100/178/0225/front_en.4.400.jpg
+272,184.62,6.15,7.69,23.08,Koro Koro Chili Flavor,https://images.openfoodfacts.org/images/products/899/100/250/2161/front_en.3.400.jpg
+273,475.0,13.75,18.75,63.75,Hot & Spicy Coates Roasted Peanut,https://images.openfoodfacts.org/images/products/899/100/250/2765/front_en.3.400.jpg
+274,56.0,2.4,17.2,8.8,Ultra Milk Stroberi 250 ml E-1B,https://images.openfoodfacts.org/images/products/899/800/901/0248/front_en.3.400.jpg
+275,166.67,6.67,20.0,73.33,Chocochips matcha cookies,https://images.openfoodfacts.org/images/products/899/838/912/4122/front_en.3.400.jpg
+276,191.67,1.67,8.33,25.83,Feast-Wich,https://images.openfoodfacts.org/images/products/899/999/953/5490/front_en.3.400.jpg
+277,0.0,0.0,5.0,9.8,M&Ms Chocolate Bar Cookies,https://images.openfoodfacts.org/images/products/930/068/205/1422/front_en.4.400.jpg
+278,558.0,4.07,32.74,61.95,Kitkat Framboise,https://images.openfoodfacts.org/images/products/490/220/117/4107/front_en.9.400.jpg
+279,130.0,5.0,4.0,18.0,Ultra Milk rasa Taro 200 ml,https://images.openfoodfacts.org/images/products/899/800/901/1702/front_fr.3.400.jpg
+280,80.0,0.0,0.0,19.0,Tehbotol Sosro btl,https://images.openfoodfacts.org/images/products/899/600/685/8016/front_id.9.400.jpg
+281,170.0,5.0,2.5,39.0,handcrafted granola,https://images.openfoodfacts.org/images/products/899/722/512/1059/front_fr.3.400.jpg
+282,244.0,4.0,3.5,46.0,Peti Pain Fitness,https://images.openfoodfacts.org/images/products/761/670/019/8607/front_fr.3.400.jpg
+283,108.0,25.0,0.83,0.0,Tuna Flakes in water,https://images.openfoodfacts.org/images/products/955/604/160/4635/front_fr.3.400.jpg
+284,133.0,0.67,4.67,48.7,Pop Corn Cheese,https://images.openfoodfacts.org/images/products/899/702/176/0018/front_en.4.400.jpg
+285,656.0,21.9,53.1,21.9,Creamy Peanut Butter,https://images.openfoodfacts.org/images/products/692/287/779/2700/front_fr.3.400.jpg
+286,120.0,2.0,4.0,20.0,tarik malaka untuk,https://images.openfoodfacts.org/images/products/899/417/110/1968/front_mg.13.400.jpg
+287,413.5,3.4,8.8,79.0,LCMs Unicorn,https://images.openfoodfacts.org/images/products/885/275/602/3497/front_en.10.400.jpg
+288,56.25,5.0,0.0,6.25,Yoghurt,https://images.openfoodfacts.org/images/products/899/340/681/1252/front_fr.3.400.jpg
+289,507.0,6.9,28.3,56.3,Ritz crackers crunchy cream sandwich cheese,No Image Available
+290,485.0,3.6,23.1,65.2,Walkers,https://images.openfoodfacts.org/images/products/501/155/504/1122/front_en.3.400.jpg
+291,116.0,22.0,3.2,0.0,tuna komadići,https://images.openfoodfacts.org/images/products/385/989/104/4603/front_hr.10.400.jpg
+292,428.47,4.82,9.23,81.53,Kopi Latte Choco Hazelnut,https://images.openfoodfacts.org/images/products/899/199/811/0210/front_id.7.400.jpg
+293,429.0,7.14,14.3,71.4,The Famous Classic NEXTAR nastar cookies,https://images.openfoodfacts.org/images/products/899/317/553/8947/front_en.10.400.jpg
+294,71.1,2.22,2.22,10.7,Frisian Flag Purefarm Swiss Chocolate,https://images.openfoodfacts.org/images/products/899/275/303/3720/front_en.7.400.jpg
+295,519.0,7.41,25.9,63.0,Roma Biscuit Sandwich Chocolate (Coklat Bon Bon),https://images.openfoodfacts.org/images/products/899/600/130/5041/front_en.4.400.jpg
+296,541.0,2.7,29.7,62.2,Koala’s March Strawberry,https://images.openfoodfacts.org/images/products/885/200/830/0130/front_kk.6.400.jpg
+297,481.0,8.64,24.7,55.6,sedaap cup kari spesial,https://images.openfoodfacts.org/images/products/899/886/620/0844/front_en.28.400.jpg
+298,378.0,59.5,5.95,21.6,Whey,https://images.openfoodfacts.org/images/products/062/793/302/7319/front_fr.3.400.jpg
+299,20.0,0.0,0.0,5.0,No xplode,https://images.openfoodfacts.org/images/products/083/426/600/1514/front_fr.3.400.jpg
+300,402.0,6.0,2.0,88.0,Bubs Organic,https://images.openfoodfacts.org/images/products/933/807/800/4035/front_en.7.400.jpg
+301,90.0,2.0,6.0,7.0,Chocolatte hazelnut spread,https://images.openfoodfacts.org/images/products/899/721/273/1193/front_fr.3.400.jpg
+302,0.0,8.75,22.5,61.2,mi goreng hot & spicy,https://images.openfoodfacts.org/images/products/899/168/889/0644/front_en.3.400.jpg
+303,100.0,2.0,1.0,20.0,Choco balls,https://images.openfoodfacts.org/images/products/506/031/866/6911/front_fr.3.400.jpg
+304,474.0,10.5,26.3,63.2,Beng-beng Share it,https://images.openfoodfacts.org/images/products/899/600/135/5978/front_id.6.400.jpg
+305,376.0,5.9,1.6,82.0,Swiss Choco Croc,https://images.openfoodfacts.org/images/products/761/002/300/2023/front_fr.3.400.jpg
+306,545.0,3.8,32.0,59.5,Ovomaltine crunchy cream,https://images.openfoodfacts.org/images/products/761/210/002/7158/front_fr.3.400.jpg
+307,6.3,3.0,0.0,0.8,Kecap asin sari ikan cap burung kiwi,https://images.openfoodfacts.org/images/products/899/723/227/0016/front_id.3.400.jpg
+308,410.0,9.0,20.0,9.0,Indomie Mi Goreng Rasa Ayam Geprek,https://images.openfoodfacts.org/images/products/008/968/604/3433/front_en.3.400.jpg
+309,437.5,0.0,6.25,87.5,Coffe Candy,https://images.openfoodfacts.org/images/products/899/600/132/1188/front_id.8.400.jpg
+310,533.33,6.67,30.0,60.0,Dairy Milk Chocolate,https://images.openfoodfacts.org/images/products/955/618/202/3258/front_id.11.400.jpg
+311,60.0,0.67,0.0,14.0,Gilus Mix Gula Aren,https://images.openfoodfacts.org/images/products/899/866/600/2730/front_en.8.400.jpg
+312,462.0,64.1,17.9,64.1,Pediasure Vanilla,https://images.openfoodfacts.org/images/products/888/645/100/2860/front_en.6.400.jpg
+313,110.0,1.0,7.0,11.0,Chitato Rasa Keju,https://images.openfoodfacts.org/images/products/008/968/659/8957/front_en.3.400.jpg
+314,60.0,0.0,0.0,15.0,Hydro Coco,https://images.openfoodfacts.org/images/products/899/700/978/1110/front_en.17.400.jpg
+315,20.0,0.0,0.0,4.89,Good mood lemon madu,https://images.openfoodfacts.org/images/products/899/277/570/9061/front_en.3.400.jpg
+316,100.0,5.0,7.0,4.0,Kraft Quick Melt 165gr,https://images.openfoodfacts.org/images/products/762/230/027/0919/front_id.6.400.jpg
+317,246.0,0.0,0.0,0.0,Cornetto unicorn,No Image Available
+318,43.0,0.0,0.0,10.0,YOU C1000 Vitamin Apple,https://images.openfoodfacts.org/images/products/899/700/951/0130/front_en.3.400.jpg
+319,90.0,1.0,3.5,13.0,Potato chips,No Image Available
+320,571.0,8.57,37.1,51.4,Beng Beng Nuts Almonds,https://images.openfoodfacts.org/images/products/899/600/135/4063/front_id.3.400.jpg
+321,350.0,10.0,1.5,75.0,Segitiga biru,https://images.openfoodfacts.org/images/products/899/329/620/5001/front_en.26.400.jpg
+322,35.0,0.0,3.5,1.0,Santan kelapa,https://images.openfoodfacts.org/images/products/899/271/788/0186/front_fr.3.400.jpg
+323,120.0,1.0,8.0,10.0,Colatta,https://images.openfoodfacts.org/images/products/899/299/326/0351/front_id.21.400.jpg
+324,70.0,1.0,2.0,13.0,Del Monte,https://images.openfoodfacts.org/images/products/899/888/871/2196/front_id.15.400.jpg
+325,90.0,0.0,9.0,2.0,Maestro,https://images.openfoodfacts.org/images/products/899/888/846/1117/front_id.12.400.jpg
+326,200.0,8.0,1.0,40.0,La Fonte,https://images.openfoodfacts.org/images/products/888/890/040/0111/front_id.14.400.jpg
+327,130.0,1.0,4.0,23.0,Kental Manis,https://images.openfoodfacts.org/images/products/899/275/310/1207/front_id.14.400.jpg
+328,86.2,0.0,0.0,17.2,Saori Saus Tiram,https://images.openfoodfacts.org/images/products/899/277/009/6135/front_id.18.400.jpg
+329,80.0,0.0,9.0,0.0,Sania,https://images.openfoodfacts.org/images/products/899/349/600/1076/front_id.10.400.jpg
+330,810.0,0.0,90.0,0.0,Bimoli,https://images.openfoodfacts.org/images/products/899/262/802/0152/front_id.8.400.jpg
+331,350.0,9.0,1.0,77.0,Bogasari Kunci Biru,https://images.openfoodfacts.org/images/products/899/329/630/1116/front_id.15.400.jpg
+332,70.0,1.0,0.0,16.0,Haan Pancake Mix,https://images.openfoodfacts.org/images/products/899/299/352/3791/front_id.15.400.jpg
+333,130.0,3.0,2.0,24.0,Simba Choco Chips,https://images.openfoodfacts.org/images/products/899/317/200/0355/front_id.16.400.jpg
+334,50.0,1.0,2.0,7.0,Nabati Richeese Black,https://images.openfoodfacts.org/images/products/899/317/554/7635/front_id.14.400.jpg
+335,40.0,0.0,1.5,7.0,nextar nabati strawbery,https://images.openfoodfacts.org/images/products/899/317/554/8335/front_en.11.400.jpg
+336,45.0,0.0,1.5,8.0,French Freis 2000 62gr,https://images.openfoodfacts.org/images/products/888/601/322/3207/front_id.12.400.jpg
+337,130.0,5.0,11.0,2.0,Kuaci Biji Bunga Matahari,https://images.openfoodfacts.org/images/products/899/700/205/1494/front_en.4.400.jpg
+338,600.0,5.0,35.0,60.0,Ceres,No Image Available
+339,280.0,5.0,17.0,26.0,Croissant creamy peanut butter,https://images.openfoodfacts.org/images/products/899/720/467/0325/front_fr.3.400.jpg
+340,454.55,9.09,18.18,72.73,Multigrain Chips,No Image Available
+341,24.0,0.0,0.0,6.0,POKKA Green Tea,https://images.openfoodfacts.org/images/products/899/498/500/0006/front_en.3.400.jpg
+342,160.0,3.0,6.0,24.0,Brown Sugar Milk,https://images.openfoodfacts.org/images/products/899/721/838/0159/front_fr.3.400.jpg
+343,500.0,0.0,25.0,62.5,Chocolate Crunchy Caramel,No Image Available
+344,592.0,12.5,42.9,39.0,Tikha,No Image Available
+345,271.43,4.29,15.71,28.57,Small Bhakarwadi,https://images.openfoodfacts.org/images/products/890/407/170/1090/front_en.4.400.jpg
+346,30.0,1.0,1.0,3.0,Bumbu Bali,No Image Available
+347,10.0,2.0,6.0,22.0,Chocolate Springkles,No Image Available
+348,140.0,0.0,5.0,3.0,Gabin super,https://images.openfoodfacts.org/images/products/899/991/818/2095/front_id.3.400.jpg
+349,567.0,6.67,16.7,53.3,Genji Soft Pie Chocolate,No Image Available
+350,370.0,22.0,6.6,58.0,Kiranti,No Image Available
+351,60.0,0.0,0.0,15.0,Ion Supply Drink 900ml,https://images.openfoodfacts.org/images/products/899/703/560/0546/front_id.20.400.jpg
+352,70.0,0.0,0.0,17.0,Jahe Wangi,https://images.openfoodfacts.org/images/products/899/337/110/0115/front_en.15.400.jpg
+353,450.0,10.0,20.0,70.0,Dark Chocolate Cookies,https://images.openfoodfacts.org/images/products/899/702/641/1380/front_id.10.400.jpg
+354,2.0,0.0,0.0,1.0,FISHERMAN'S FRIEND CHOCO MENTHOL,https://images.openfoodfacts.org/images/products/000/009/618/9016/front_fr.3.400.jpg
+355,190.0,4.5,7.0,12.0,Greenfield chocomalt milk,No Image Available
+356,154.0,4.4,2.1,28.0,Nouille Mie goreng,No Image Available
+357,179.0,27.6,7.63,0.0,Tuna olive oil,https://images.openfoodfacts.org/images/products/955/604/160/4505/front_fr.3.400.jpg
+358,200.0,7.0,15.0,9.0,Skippy,No Image Available
+359,405.0,1.0,17.0,63.0,Instant Noodles,https://images.openfoodfacts.org/images/products/528/500/039/6406/front_en.4.400.jpg
+360,450.0,0.0,12.5,80.0,Kapal Api Grande Java Latte,https://images.openfoodfacts.org/images/products/899/100/211/5101/front_en.5.400.jpg
+361,500.0,6.25,18.8,68.8,Oops,https://images.openfoodfacts.org/images/products/899/110/278/9318/front_en.9.400.jpg
+362,90.0,1.0,2.0,12.0,White Koffie,https://images.openfoodfacts.org/images/products/899/417/110/1296/front_en.3.400.jpg
+363,120.0,3.2,3.2,19.2,Mango Yogurts Greenfields,https://images.openfoodfacts.org/images/products/899/335/112/0201/front_en.6.400.jpg
+364,535.0,5.9,30.0,57.5,Toblerone tiny chocolate pieces-assorted mixed,No Image Available
+365,500.0,6.67,26.67,0.0,Chocolate Chip Cookie,https://images.openfoodfacts.org/images/products/074/992/104/0213/front_en.3.400.jpg
+366,14.29,0.0,0.0,3.43,"LeVite Lychee, Citrus & Mint",https://images.openfoodfacts.org/images/products/899/275/212/2708/front_en.3.400.jpg
+367,14.29,0.0,0.0,3.71,Vanilla Pandan Tea,https://images.openfoodfacts.org/images/products/899/275/215/2309/front_en.3.400.jpg
+368,14.29,0.0,0.0,3.71,Roasted Rice Tea,https://images.openfoodfacts.org/images/products/899/275/215/2408/front_en.3.400.jpg
+369,116.67,1.67,5.0,16.67,Multigrain Chips Honey BBQ,https://images.openfoodfacts.org/images/products/899/280/209/5020/front_en.3.400.jpg
+370,112.0,3.0,3.0,20.0,Yogurt  Blueberry,https://images.openfoodfacts.org/images/products/899/335/112/0102/front_en.3.400.jpg
+371,100.0,2.63,2.63,16.32,Strawberry Yogurt Drink,https://images.openfoodfacts.org/images/products/899/335/112/0416/front_en.3.400.jpg
+372,76.0,2.0,2.4,12.4,Greenfields Yogurt Drink Peach,https://images.openfoodfacts.org/images/products/899/335/112/0454/front_en.3.400.jpg
+373,137.5,1.25,10.0,11.25,Van Landa Red Chili Pepper,https://images.openfoodfacts.org/images/products/899/510/850/9383/front_en.3.400.jpg
+374,170.0,3.0,25.0,32.0,Super bubur ayam,https://images.openfoodfacts.org/images/products/899/600/152/4008/front_en.3.400.jpg
+375,278.0,1.0,18.0,6.0,Banana Chips Sugar Cinnamon,https://images.openfoodfacts.org/images/products/899/720/920/0008/front_en.3.400.jpg
+376,137.5,1.25,10.0,11.25,Cheese and Onion Chips,https://images.openfoodfacts.org/images/products/899/721/684/0020/front_en.3.400.jpg
+377,23.61,2.78,1.94,16.11,Bulgarian Yogurt,https://images.openfoodfacts.org/images/products/899/722/041/0011/front_en.3.400.jpg
+378,357.0,11.0,2.0,73.0,Nouille,https://images.openfoodfacts.org/images/products/899/800/800/0172/front_en.3.400.jpg
+379,52.0,0.0,0.0,12.0,Buavita Lychee 245ml,https://images.openfoodfacts.org/images/products/899/800/902/0216/front_en.3.400.jpg
+380,44.0,0.0,0.0,10.0,Buavita Apple,https://images.openfoodfacts.org/images/products/899/800/902/0223/front_en.3.400.jpg
+381,307.69,4.62,20.0,27.69,Potabee Selections Melted Cheese,https://images.openfoodfacts.org/images/products/899/886/620/1636/front_en.3.400.jpg
+382,72.0,1.0,3.0,8.0,Haku Monaka Vanilla,https://images.openfoodfacts.org/images/products/899/886/682/0103/front_en.3.400.jpg
+383,114.0,0.0,28.0,20.0,Strawberry Loop,https://images.openfoodfacts.org/images/products/899/886/682/0189/front_en.3.400.jpg
+384,71.67,0.56,2.78,7.78,Haku Monaka Choco & Choco,https://images.openfoodfacts.org/images/products/899/886/682/0233/front_en.3.400.jpg
+385,240.0,0.0,4.0,50.0,Waku Waku Chewy Grape,https://images.openfoodfacts.org/images/products/899/886/682/0257/front_en.3.400.jpg
+386,218.18,1.82,10.0,30.0,Cornetto  Oreo,https://images.openfoodfacts.org/images/products/899/999/951/3757/front_en.3.400.jpg
+387,149.25,1.49,5.22,23.13,Unicornetto,https://images.openfoodfacts.org/images/products/899/999/953/4271/front_en.3.400.jpg
+388,120.0,2.0,4.0,21.0,Rash Udang Pedas,https://images.openfoodfacts.org/images/products/899/700/430/1184/front_fr.3.400.jpg
+389,150.0,5.0,22.0,22.0,Glace yaourt fruit,https://images.openfoodfacts.org/images/products/210/014/567/9456/front_fr.3.400.jpg
+390,433.0,6.5,20.0,56.5,Granola bites,https://images.openfoodfacts.org/images/products/899/703/300/1956/front_fr.3.400.jpg
+391,270.0,8.0,3.5,33.0,Gluten-Free Cookies,https://images.openfoodfacts.org/images/products/899/722/512/0311/front_fr.3.400.jpg
+392,12.0,0.0,0.0,2.0,Youvit for life,https://images.openfoodfacts.org/images/products/899/274/195/5867/front_fr.3.400.jpg
+393,100.0,0.0,0.0,25.0,Fanta Ngemil Apa Aja,https://images.openfoodfacts.org/images/products/899/276/111/1045/front_fr.3.400.jpg
+394,550.0,7.0,45.0,45.0,cashew nut spread,https://images.openfoodfacts.org/images/products/899/295/295/2228/front_fr.3.400.jpg
+395,100.0,0.0,4.5,14.0,Pilus Rasa Pedas,https://images.openfoodfacts.org/images/products/899/277/521/1410/front_en.5.400.jpg
+396,100.0,2.0,5.0,12.0,Doritos - Nacho Cheese,No Image Available
+397,367.0,59.0,11.1,6.0,Billy Frank's british beef jerky,https://images.openfoodfacts.org/images/products/061/037/067/0248/front_fr.3.400.jpg
+398,627.0,26.4,49.5,19.8,Creamy peanut butter,https://images.openfoodfacts.org/images/products/899/595/200/4027/front_fr.3.400.jpg
+399,170.0,3.0,12.0,14.0,Chunky bar,https://images.openfoodfacts.org/images/products/899/100/111/1883/front_fr.3.400.jpg
+400,100.0,1.0,1.5,16.0,Biscuit,https://images.openfoodfacts.org/images/products/888/816/633/7183/front_fr.3.400.jpg
+401,45.0,0.0,0.0,11.0,Mizone,https://images.openfoodfacts.org/images/products/899/275/211/2310/front_fr.3.400.jpg
+402,354.0,7.5,1.5,76.5,Penne rigate con Farina di Quinoa,No Image Available
+403,458.0,4.0,13.0,75.0,Slai O'lai,https://images.openfoodfacts.org/images/products/899/600/130/4013/front_fr.3.400.jpg
+404,140.0,2.0,70.0,0.0,wall's,https://images.openfoodfacts.org/images/products/899/999/903/5051/front_id.12.400.jpg
+405,29.0,2.5,1.6,1.2,Soya Milk Original,No Image Available
+406,50.0,2.0,6.0,7.0,Chocolate cashew spread,https://images.openfoodfacts.org/images/products/899/721/273/1544/front_fr.3.400.jpg
+407,1.0,5.7,14.2,27.2,Quick Cook Oatmeal,https://images.openfoodfacts.org/images/products/955/618/396/0934/front_fr.3.400.jpg
+408,130.0,3.0,2.0,24.0,Simba choco chips E-1B,https://images.openfoodfacts.org/images/products/899/317/288/6836/front_en.4.400.jpg
+409,300.0,0.0,4.5,4.0,Thousand island salad dressing,https://images.openfoodfacts.org/images/products/899/888/846/1384/front_fr.3.400.jpg
+410,285.88,4.24,18.47,25.65,Ice cream,https://images.openfoodfacts.org/images/products/955/600/127/2775/front_fr.3.400.jpg
+411,640.0,10.7,20.0,62.7,Pop Mie Baso,https://images.openfoodfacts.org/images/products/008/968/606/0126/front_id.8.400.jpg
+412,899.0,0.0,99.9,0.0,Huile d’olve,https://images.openfoodfacts.org/images/products/805/651/524/4103/front_fr.3.400.jpg
+413,75.0,2.5,0.75,15.0,Yogurt Drink,https://images.openfoodfacts.org/images/products/899/320/066/3835/front_en.3.400.jpg
+414,50.0,2.0,6.0,12.0,Joa Yo,https://images.openfoodfacts.org/images/products/899/703/271/1290/front_id.6.400.jpg
+415,367.0,6.67,0.0,83.3,Bihunku Goreng 60Gr,https://images.openfoodfacts.org/images/products/899/311/873/1022/front_id.3.400.jpg
+416,500.0,6.25,68.75,68.75,Oatbits,No Image Available
+417,60.0,0.67,0.33,14.0,Gilus Mix Pandan,https://images.openfoodfacts.org/images/products/899/866/600/2754/front_en.7.400.jpg
+418,325.0,4.0,0.0,0.0,Vermicelle de riz,https://images.openfoodfacts.org/images/products/899/800/800/0066/front_en.6.400.jpg
+419,63.6,1.82,2.27,0.0,Dancow Uht Fg Coklat 110Ml,No Image Available
+420,180.0,5.0,5.0,29.0,Yogurt Drink Original,No Image Available
+421,240.0,4.0,10.0,34.0,Granola,https://images.openfoodfacts.org/images/products/899/720/722/0169/front_en.3.400.jpg
+422,0.0,0.0,0.0,11.3,Minute Maid Pulpy Orange,https://images.openfoodfacts.org/images/products/899/276/113/6208/front_fr.3.400.jpg
+423,150.0,1.67,4.17,25.0,Minion Paddle pop,No Image Available
+424,80.0,0.0,5.0,9.0,Bella White Chocolate Cream,No Image Available
+425,10.0,0.0,0.0,2.0,Nutrijell,No Image Available
+426,187.5,0.0,62.5,25.0,Sambal Terasi Uleg,No Image Available
+427,200.0,3.0,4.5,26.0,Regal peanut butter,No Image Available
+428,375.0,0.0,0.0,100.0,Sugarfree Sweetlets,No Image Available
+429,290.0,10.0,10.0,10.0,Soy sauce,No Image Available
+430,500.0,0.0,40.0,60.0,Ahh',No Image Available
+431,10.0,0.0,0.0,2.0,Mint  Blossom,https://images.openfoodfacts.org/images/products/899/721/280/0660/front_en.3.400.jpg
+432,542.86,22.86,30.0,42.86,Kacang Jepang Spicy Flavor,https://images.openfoodfacts.org/images/products/899/100/250/2727/front_en.3.400.jpg
+433,571.0,4.9,39.2,46.5,Noir dégustation fleur de sel,No Image Available
+434,554.0,26.6,49.7,5.3,Pucci Acciughe a filetti,https://images.openfoodfacts.org/images/products/000/008/002/8512/front_fr.5.400.jpg
+435,446.67,0.0,0.0,98.0,Sweet soy sauce,https://images.openfoodfacts.org/images/products/008/968/642/0036/front_en.29.400.jpg
+436,60.0,2.0,0.0,13.0,KOBE Serbaguna Spesial,No Image Available
+437,20.0,1.0,2.0,9.0,Salted Caramel,https://images.openfoodfacts.org/images/products/899/723/787/0013/front_fr.3.400.jpg
+438,0.0,0.0,2.0,7.0,Twistko Jagung Bakar 70gr,https://images.openfoodfacts.org/images/products/888/601/322/1203/front_id.3.400.jpg
+439,136.0,2.0,4.0,23.0,Wafer Roll,https://images.openfoodfacts.org/images/products/899/295/292/4331/front_fr.3.400.jpg
+440,60.0,10.0,1.0,4.0,ABC,https://images.openfoodfacts.org/images/products/071/184/433/0115/front_id.16.400.jpg
+441,20.0,0.0,1.0,2.0,Ashitaki Creamy Latte Original,No Image Available
+442,20.0,0.0,0.0,5.0,Abc tomato ketchup saus tomat,https://images.openfoodfacts.org/images/products/071/184/413/0050/front_id.3.400.jpg
+443,100.0,2.86,2.86,14.29,Cimory Squeeze Yogurt,https://images.openfoodfacts.org/images/products/899/320/066/7406/front_fr.3.400.jpg
+444,340.0,5.0,0.0,80.0,Bolicious Sweet Lychee,https://images.openfoodfacts.org/images/products/899/274/194/3727/front_fr.3.400.jpg
+445,0.35,7.0,14.0,47.0,Ramen Curry,https://images.openfoodfacts.org/images/products/899/271/885/3929/front_fr.3.400.jpg
+446,425.0,10.0,15.0,65.0,Nouille au fromage épicé,No Image Available
+447,200.0,4.0,11.0,23.0,Spicy beef noodles,https://images.openfoodfacts.org/images/products/899/238/813/4540/front_en.3.400.jpg
+448,58.0,1.3,1.6,7.9,Schlachtekraut,https://images.openfoodfacts.org/images/products/425/026/275/8249/front_fr.3.400.jpg
+449,338.89,5.56,0.0,77.78,Mixed cakes,No Image Available
+450,110.0,2.0,6.0,11.0,Chitato Spicy Grilled Beef Flavor,https://images.openfoodfacts.org/images/products/008/968/659/8599/front_fr.3.400.jpg
+451,297.0,7.69,8.79,47.3,Sandwich Funwari Coklat & Kacang,https://images.openfoodfacts.org/images/products/899/404/602/0080/front_en.3.400.jpg
+452,328.0,7.46,13.4,44.8,Roti Ogura (Kacang Merah),https://images.openfoodfacts.org/images/products/899/404/607/0108/front_en.3.400.jpg
+453,24.0,0.0,0.0,6.4,Frestea Teh Melati,https://images.openfoodfacts.org/images/products/899/276/112/2324/front_en.3.400.jpg
+454,200.0,0.0,23.33,6.67,Coconut  milk,https://images.openfoodfacts.org/images/products/899/309/366/6173/front_en.3.400.jpg
+455,110.0,1.0,6.0,16.0,Goldenfil Choco Crunchy,https://images.openfoodfacts.org/images/products/899/703/400/0071/front_en.4.400.jpg
+456,375.0,12.5,16.67,62.5,Fitbar Nuts,https://images.openfoodfacts.org/images/products/899/280/206/3043/front_en.3.400.jpg
+457,10.0,5.0,1.0,10.0,Plain Yogurt,No Image Available
+458,330.0,6.0,30.0,9.0,Pesto from Costco,https://images.openfoodfacts.org/images/products/899/608/999/0559/front_en.3.400.jpg
+459,409.09,9.09,18.18,63.64,"Cookies, Dark Chocolate",https://images.openfoodfacts.org/images/products/899/280/209/9011/front_en.3.400.jpg
+460,130.0,6.0,7.0,10.0,Fresh milk,https://images.openfoodfacts.org/images/products/899/320/066/3729/front_en.3.400.jpg
+461,25.0,1.0,1.0,2.0,Nasi Goreng Pedas,No Image Available
+462,440.0,4.0,17.0,70.0,Choco Pie,No Image Available
+463,46.43,0.0,0.0,10.71,Aloe Vera Lemon Flavour,No Image Available
+464,73.0,1.36,1.82,13.18,Avocuddle,https://images.openfoodfacts.org/images/products/899/174/900/0036/front_en.3.400.jpg
+465,60.0,0.0,0.0,19.0,Fibe mini,https://images.openfoodfacts.org/images/products/899/703/560/1482/front_en.3.400.jpg
+466,250.0,0.0,0.0,50.0,Nescafe classic,https://images.openfoodfacts.org/images/products/899/269/640/0924/front_en.3.400.jpg
+467,500.0,0.0,33.33,66.67,Fiber creme,No Image Available
+468,0.39,25.0,1.5,8.0,Evowhey chocolate,No Image Available
+469,250.0,7.5,5.0,42.5,Sliced bread,No Image Available
+470,130.0,4.0,7.0,14.0,Granova  peanut butter & berry bar,No Image Available
+471,100.0,3.0,2.5,18.0,KIN Blieberry,No Image Available
+472,120.0,10.0,6.0,5.0,Sosis Singles mini,No Image Available
+473,10.0,35.0,20.0,12.0,White koffie,https://images.openfoodfacts.org/images/products/899/417/110/1104/front_fr.3.400.jpg
+474,0.0,0.0,0.0,18.0,Teh gelas ori 350,https://images.openfoodfacts.org/images/products/899/110/222/8053/front_en.3.400.jpg
+475,590.0,13.6,42.3,38.7,Mix Farsan,https://images.openfoodfacts.org/images/products/890/407/170/0918/front_id.4.400.jpg
+476,0.0,0.27,4.0,10.0,Bhujia Sev,No Image Available
+477,115.0,1.8,1.8,11.2,Bhels Puri,No Image Available
+478,452.0,10.3,14.5,70.0,Roasted Poha Chivda,No Image Available
+479,567.0,0.0,37.2,48.4,Bhel Mix,No Image Available
+480,571.0,0.0,35.1,37.9,Manglori Mix,No Image Available
+481,416.0,2.1,9.2,81.2,Kismi - Assorted Toffees,https://images.openfoodfacts.org/images/products/890/171/911/9248/front_en.5.400.jpg
+482,428.57,0.0,0.0,100.0,Herb candy,https://images.openfoodfacts.org/images/products/008/825/121/7873/front_en.6.400.jpg
+483,69.6,2.61,2.17,10.4,Indomilk Kids Chocolate UHT Milk,https://images.openfoodfacts.org/images/products/899/300/700/0239/front_en.20.400.jpg
+484,400.0,4.0,36.0,16.0,Salad dressing,No Image Available
+485,85.71,0.95,1.43,19.05,Vita Pudding,No Image Available
+486,70.0,2.5,0.0,15.0,Beras Porang,No Image Available
+487,100.0,2.0,2.5,17.0,Haku Vanilla & Crispy Choco  Monaka,No Image Available
+488,150.0,6.0,11.0,8.0,Protein bar danish cheese E-2B,https://images.openfoodfacts.org/images/products/899/703/560/1567/front_en.3.400.jpg
+489,0.48,7.41,22.22,62.96,Beng-beng chocolate wafer,https://images.openfoodfacts.org/images/products/899/600/135/5008/front_en.3.400.jpg
+490,36.0,0.0,0.0,9.6,Fruit Tea Apel,No Image Available
+491,110.0,1.0,6.0,11.0,Chitato lite 69G,https://images.openfoodfacts.org/images/products/008/968/673/2078/front_fr.3.400.jpg
+492,140.0,5.0,6.0,8.0,Greek Yoghurt plain,No Image Available
+493,60.0,1.0,0.0,13.0,Milna Nature Puffs Organic,https://images.openfoodfacts.org/images/products/899/280/210/5019/front_fr.3.400.jpg
+494,70.0,1.0,3.0,10.0,Promina Puff,https://images.openfoodfacts.org/images/products/008/968/664/0014/front_fr.3.400.jpg
+495,160.0,6.0,8.0,16.0,Greek Yoghurt- Strawberry Flavoured,https://images.openfoodfacts.org/images/products/899/989/897/2303/front_en.3.400.jpg
+496,500.0,5.0,25.0,60.0,Nutty Chocolate Cookies,https://images.openfoodfacts.org/images/products/074/992/100/2228/front_en.3.400.jpg
+497,107.69,1.54,2.31,21.54,Es lilin coconut flavor,No Image Available
+498,80.0,2.0,4.5,8.0,Peanut Butter Puff,https://images.openfoodfacts.org/images/products/069/747/874/5320/front_fr.3.400.jpg
+499,60.0,1.0,0.0,13.0,Nature Puff Organic,https://images.openfoodfacts.org/images/products/899/280/210/5026/front_fr.3.400.jpg
+500,80.0,2.0,25.0,11.0,Cream Crackers,https://images.openfoodfacts.org/images/products/899/283/900/7478/front_fr.3.400.jpg
+501,45.0,2.0,2.0,5.0,Flat white,No Image Available
+502,250.0,2.0,24.0,6.0,Uht Coconut Cream,https://images.openfoodfacts.org/images/products/899/309/366/6807/front_en.3.400.jpg
+503,390.0,5.0,2.0,88.0,Froot Loops,https://images.openfoodfacts.org/images/products/885/275/670/7045/front_en.8.400.jpg
+504,466.67,6.67,23.33,66.67,Tricks - Baked crisps,No Image Available
+505,2.0,6.0,2.0,55.0,Yupi Roletto,https://images.openfoodfacts.org/images/products/899/274/195/5966/front_fr.3.400.jpg
+506,0.0,2.2,0.0,0.0,Chocolate Wafer Stick,https://images.openfoodfacts.org/images/products/899/308/392/6270/front_en.3.400.jpg
+507,78.9,0.7,0.2,16.7,mmm…. mallows,https://images.openfoodfacts.org/images/products/933/871/300/1757/front_fr.3.400.jpg
+508,2.15,1.0,6.0,20.0,Oreo birthday sprinkles,https://images.openfoodfacts.org/images/products/762/220/167/7589/front_fr.3.400.jpg
+509,80.0,1.0,2.0,14.0,instant mushroom cream soup,https://images.openfoodfacts.org/images/products/899/721/724/0249/front_id.6.400.jpg
+510,400.0,12.0,4.0,76.0,HH Multi Grain,https://images.openfoodfacts.org/images/products/899/701/782/3765/front_en.3.400.jpg
+511,10.0,1.0,3.0,25.0,YOGURT,https://images.openfoodfacts.org/images/products/899/320/066/5006/front_fr.3.400.jpg
+512,411.76,0.0,0.0,94.12,Plum candy,https://images.openfoodfacts.org/images/products/899/700/205/7328/front_en.3.400.jpg
+513,375.0,0.0,0.0,75.0,Apple cider vinegar gummy,https://images.openfoodfacts.org/images/products/899/724/365/0029/front_en.3.400.jpg
+514,279.0,1.7,5.6,52.0,Gewürzpaste BAMI GORENG,https://images.openfoodfacts.org/images/products/899/589/943/0514/front_en.3.400.jpg
+515,110.0,0.0,30.0,65.0,Singkong rasa balado,https://images.openfoodfacts.org/images/products/008/968/661/1700/front_fr.3.400.jpg
+516,650.0,10.0,50.0,30.0,BAli 100% Cacao Chocolate Drops,https://images.openfoodfacts.org/images/products/899/721/273/1629/front_en.3.400.jpg
+517,447.76,11.94,19.4,4.48,Cup noodles,https://images.openfoodfacts.org/images/products/899/271/885/3806/front_en.3.400.jpg
+518,570.0,16.67,39.33,37.0,Salted Caramel Cashew,https://images.openfoodfacts.org/images/products/942/190/609/4220/front_fr.3.400.jpg
+519,480.0,3.0,5.0,16.0,Kacang Atom Oven,No Image Available
+520,127.0,8.5,9.0,3.0,גבינה לבנה,No Image Available
+521,304.88,22.2,1.83,53.66,Protein Bar,https://images.openfoodfacts.org/images/products/899/721/077/0699/front_en.3.400.jpg
+522,475.0,22.5,35.0,15.0,Honey Roasted Peanuts,https://images.openfoodfacts.org/images/products/899/270/981/8401/front_en.3.400.jpg
+523,454.55,10.23,18.18,63.64,Mi Goreng,No Image Available
+524,110.0,5.0,8.0,6.0,Greek Yogurt,https://images.openfoodfacts.org/images/products/749/922/117/4318/front_fr.3.400.jpg
+525,90.0,0.0,0.0,22.0,I'mCoco,https://images.openfoodfacts.org/images/products/899/272/689/2514/front_fr.3.400.jpg
+526,42.0,1.5,3.5,1.0,Lait concentré,https://images.openfoodfacts.org/images/products/899/300/700/1557/front_fr.3.400.jpg
+527,0.0,4.9,21.8,2.9,ORIGINAL PHILADELPHIA PORTIONS,https://images.openfoodfacts.org/images/products/000/009/356/7022/front_en.3.400.jpg
+528,80.0,2.0,1.5,15.0,Yogurto,https://images.openfoodfacts.org/images/products/749/922/113/3155/front_fr.3.400.jpg
+529,287.5,3.75,18.75,25.0,Almond ice cream,No Image Available
+530,472.0,6.3,16.8,74.1,Banana flavor cream biscuit,No Image Available
+531,207.0,8.25,5.9,30.21,Beignet samoussa légumes,https://images.openfoodfacts.org/images/products/899/270/400/2515/front_en.3.400.jpg
+532,555.56,11.11,33.33,51.85,"Fruit, and nut",https://images.openfoodfacts.org/images/products/899/100/112/2094/front_en.3.400.jpg
+533,16.1,0.36,0.45,2.95,Acaraki can 320ml,https://images.openfoodfacts.org/images/products/899/998/890/1312/front_id.4.400.jpg
+534,340.0,5.0,0.0,80.0,Neon Stix,No Image Available
+535,110.0,1.0,2.0,22.0,- Fresco,No Image Available
+536,161.97,2.82,1.76,34.51,Cachapas,No Image Available
+537,500.0,10.0,27.0,57.0,Abc Selera Pds Pedas Nampol,https://images.openfoodfacts.org/images/products/899/238/813/2324/front_id.3.400.jpg
+538,60.9,1.74,2.61,8.7,Frisian Flag Milky Choco,https://images.openfoodfacts.org/images/products/899/275/300/9817/front_id.3.400.jpg
+539,70.0,1.0,0.25,15.0,Yogurt Drink Strawberry,https://images.openfoodfacts.org/images/products/899/320/066/3828/front_en.3.400.jpg
+540,100.0,10.0,2.45,8.5,Toffee Caramel Shake,No Image Available
+541,315.0,0.0,0.0,77.7,CORN SYRUP 5KG CJ 3,https://images.openfoodfacts.org/images/products/880/100/764/9238/front_id.3.400.jpg
+542,180.0,8.0,11.0,12.0,Whole milk,No Image Available
+543,52.0,8.9,0.0,4.0,Skyr nature,No Image Available
+544,90.0,3.3,3.2,12.0,Yaourt à la fraise,No Image Available
+545,380.0,18.0,34.0,0.0,Sardines,No Image Available
+546,63.33,5.33,0.5,9.0,Flimmeal,No Image Available
+547,52.2,2.61,3.04,4.35,Indomilk Kids Full Cream UHT Milk,No Image Available
+548,100.0,2.0,5.0,12.0,Gold Cake Strawberry Cheesecake - Rious - Rious - Rious,No Image Available
+549,130.0,2.0,40.0,20.0,Malkist,No Image Available
+550,238.0,2.0,9.0,36.0,Wafer,No Image Available
+551,140.0,1.0,5.0,23.0,Café top - Top,No Image Available
+552,480.0,4.0,20.0,72.0,Creamy Caramelo - Kopiko,No Image Available
+553,140.0,2.0,6.0,19.0,Cookies,No Image Available
+554,444.0,0.9,11.0,89.9,Kopiko Cappucino - Kopiko - Kopiko - Kopiko - Kopiko,No Image Available
+555,76.0,1.8,4.7,6.8,Tikka masala,No Image Available
+556,500.0,8.33,20.83,66.67,Tricks Baked Crisps - TAY'S Bakers,No Image Available
+557,420.0,1.0,7.0,88.0,Vanilla coffee candy,No Image Available
+558,486.0,5.2,27.0,51.0,Takis lemon,No Image Available
+559,150.0,4.5,2.6,24.0,Bulgarian Yogurt Delecious,No Image Available
+560,140.0,4.0,8.0,12.0,Tempe Chips,No Image Available
+561,495.69,5.3,23.0,65.0,Chocorama Bar,No Image Available
+562,477.7,22.2,22.4,46.72,Basranger,No Image Available
+563,30.0,0.0,1.0,4.0,Nabati roll's chocolate wafer stick,No Image Available
+564,28.0,1.1,0.5,3.3,Wok thai,No Image Available
+565,275.0,12.5,2.5,52.5,Mantou Plain,No Image Available
+566,433.0,10.0,13.3,66.7,Coco Fills,No Image Available
+567,10.0,0.0,0.0,2.0,Blaster,No Image Available
+568,335.0,26.2,6.83,47.2,Healthy Protein Bar Almond Butter,No Image Available
+569,500.0,5.0,25.0,65.0,Blackthins,No Image Available
+570,380.0,8.0,14.0,54.0,Roti Sisir,No Image Available
+571,100.0,3.0,2.0,17.0,Rotinya Indonesia,No Image Available
+572,170.0,5.0,6.0,25.0,Roti ISI Kris,No Image Available
+573,533.0,6.67,28.9,62.2,Shortbread,No Image Available
+574,428.57,11.43,11.43,68.57,Oatmeal Rolled Oats,No Image Available
+575,642.86,10.71,53.57,32.14,Dark Wonder,No Image Available
+576,42.25,0.0,0.0,9.86,Fitmee ayam bawang - Fitmee,No Image Available
+577,65.22,0.0,2.17,10.87,Fitmee soto - Fitmee,No Image Available
+578,150.0,3.0,8.0,17.0,Nockers,No Image Available
+579,65.0,3.0,3.5,4.5,Greenfields Fresh Milk,No Image Available
+580,282.61,8.7,9.78,39.13,Sandwich Kacang,No Image Available
+581,571.0,28.6,35.7,21.4,Roasted almond premium,No Image Available
+582,500.0,10.0,22.5,65.0,Peanut Butter & Chocolate,No Image Available
+583,327.0,8.41,10.3,51.4,Sobek Coklat,No Image Available
+584,133.0,1.11,5.56,20.0,LuVe Choco Almond Milk Ice Cream,No Image Available
+585,200.0,8.0,18.0,4.0,Ricotta Cheese,No Image Available
+586,443.0,15.0,18.0,48.0,Crackers olive romarin bio,No Image Available
+587,400.0,76.7,10.0,3.33,Plain Pea Protein,No Image Available
+588,248.85,7.88,9.93,30.84,Sandwich rillettes du mans - Boulangerie Angr,No Image Available
+589,367.0,90.0,0.0,3.33,Whey Isolate Choco Éclairs,No Image Available
+590,520.0,4.0,32.0,60.0,Spicy Texas Style BBQ,No Image Available
+591,130.0,3.0,3.5,22.0,Crinkle Fries,No Image Available
+592,600.0,13.33,36.67,50.0,Bakpia Kukus Keju - Bakpia Tugu Jogja,No Image Available
+593,204.08,6.12,12.24,8.16,Yoghurt bar,No Image Available
+594,100.0,2.0,6.0,5.0,Yogurt Bar coffee espresso - Jolly LLAMA,No Image Available
+595,172.0,15.0,2.0,23.0,Yobem Whey bebida láctea sabor banana,No Image Available
+596,16.9,0.28,0.0,3.38,Hors sentiers - Boréale,No Image Available
+597,300.0,0.0,0.0,70.0,Selai Nanas - Indomaret,No Image Available
+598,426.67,16.67,30.0,40.0,Barra de nuts - Flowbar - Flowbar,No Image Available
+599,21.2,0.3,0.0,4.85,Coconut Water ORI,No Image Available
+600,400.0,62.5,6.25,25.0,Whey Protein,No Image Available
+601,80.0,10.0,7.5,80.0,Spicy Sweet Indonesian Noodle Snack,No Image Available
+602,222.22,0.0,0.0,44.44,Hot Lava Volcano,No Image Available
+603,183.1,9.86,7.04,21.13,Chicken Tomatillo Tamale,No Image Available
+604,131.0,31.5,0.77,0.0,Tuna Chunks In Brine,No Image Available
+605,370.5,2.0,0.0,92.0,Liquid coconut palm syrup,No Image Available
+606,80.0,2.4,2.8,11.2,Strawberry Milk,No Image Available
+607,350.0,0.0,15.0,60.0,Bumbu Ayam Goreng Mentega,No Image Available
+608,471.0,5.88,23.5,64.7,Sukro Kacang Bersalut (Fried Coated Peanut),No Image Available
+609,615.0,30.8,46.2,15.4,Kacang Garing,No Image Available
+610,336.0,21.0,18.0,34.0,Chocolate recheio caramelo  sedna,No Image Available
+611,77.0,1.06,0.37,3.71,Capeletti de carne in brodo,No Image Available
+612,123.0,28.1,1.75,0.0,canned tuna,No Image Available
+613,464.29,0.0,17.86,39.29,Stickos,No Image Available
+614,370.0,27.8,3.7,55.6,Chocolate Meal Replacement,No Image Available
+615,63.8,2.62,1.31,10.5,TOMATO KANIKU TAPPURI NO MEAT SAUCE,No Image Available
+616,286.0,7.0,10.0,42.0,Tortilla de harina,No Image Available
+617,30.0,0.0,1.0,5.0,Sagu keju,No Image Available
+618,900.0,18.0,2.3,1.5,Jamón cocido extra,No Image Available
+619,250.0,0.0,18.75,25.0,Sambal bawang uleg,No Image Available
+620,400.0,5.0,40.0,50.0,Chocolat noir au sel,No Image Available
+621,428.0,5.7,22.8,50.0,Munch Max,No Image Available
+622,250.0,0.0,2.5,0.0,Lait de coco,No Image Available
+623,240.0,8.0,40.0,52.0,Krakoa,No Image Available
+624,600.0,23.3,43.3,30.0,Jetobetic Crunchy Peanut Butter,No Image Available
+625,350.0,10.0,7.5,75.0,Porridge pomme cannelle,No Image Available
+626,473.68,5.26,21.05,68.42,Coconut crackers,No Image Available
+627,350.0,60.0,2.5,20.0,Pro Whey 100,No Image Available
+628,394.2,2.6,37.4,11.8,Cheesy Melt,No Image Available
+629,150.0,7.0,9.0,11.0,Soy Joy Sesame,No Image Available
+630,100.0,5.56,2.78,14.4,Bumbu Spagheti Bolognese,No Image Available
+631,463.33,1.3,5.4,20.1,Choc mint wafer rolls,No Image Available
+632,80.0,0.0,3.0,0.0,Sosis so nice sosis premium,No Image Available
+633,180.0,19.0,11.0,1.0,Lapchiong,No Image Available
+634,438.0,10.7,11.0,74.0,Badam Milk Mix,No Image Available
+635,40.0,3.0,0.0,6.0,Passata,No Image Available
+636,140.0,5.5,0.5,28.5,Taikoban Ramen,No Image Available
+637,400.0,23.3,11.7,50.0,Cocoa Powder,No Image Available
+638,220.0,0.0,0.0,17.5,Singaraja,No Image Available
+639,233.0,0.0,23.3,0.0,Coconut Cream,No Image Available
+640,250.0,0.0,0.0,50.0,Bumbu sayur lodeh,No Image Available
+641,250.0,5.0,10.0,35.0,Aoka bread (chocolate,No Image Available
+642,360.0,64.0,8.0,8.0,Warrior Blend Protein Berry,No Image Available
+643,356.0,8.0,25.0,41.0,Bombom goldko marshmallow 70%,No Image Available
+644,20.0,0.0,0.0,4.8,Root Beer,No Image Available
+645,150.0,4.0,8.2,15.0,Arroz con leche,No Image Available
+646,200.0,0.0,0.0,46.67,Saus cabe,No Image Available
+647,100.0,22.0,1.0,2.0,Tuna Chunk in brine,No Image Available
+648,389.0,1.2,0.7,94.0,Coconut sugar,No Image Available
+649,16.0,0.5,0.0,2.0,Matchá,No Image Available
+650,70.0,3.5,3.5,6.0,Lactose Free Milk Original,No Image Available
+651,40.0,3.0,1.25,4.5,Low Fat Milk,No Image Available
+652,433.0,10.0,13.3,66.7,Coco Fills Cereal,No Image Available
+653,600.0,20.0,45.0,30.0,Peanut Butter Creamy,No Image Available
+654,238.0,7.14,3.57,47.6,Chocoblast Sandwich,No Image Available
+655,428.57,7.14,7.14,82.14,Cacao drink,No Image Available
+656,150.0,3.0,3.0,27.0,French fries,No Image Available
+657,20.0,0.0,0.0,4.89,Teh botol less sugar,No Image Available
+658,386.0,86.0,3.6,2.5,Shadowhey Isolate,No Image Available
+659,333.0,23.3,3.33,53.3,Fish Snack,No Image Available
+660,100.0,7.0,1.5,14.0,Low fat Milk,No Image Available
+661,56.2,5.0,0.0,8.75,Yoghurt Skim Milk,No Image Available
+662,600.0,23.3,43.3,30.0,Cheezy Pizza Cashew &almond,No Image Available
+663,380.0,7.0,1.0,85.0,Self Raising Flour,No Image Available
+664,288.0,2.5,16.2,30.0,Walls Oreo Ice Cream,No Image Available
