@@ -24,9 +24,13 @@ pip install -r requirements.txt
 - Matplotlib
 
 # Dataset
-<li>
-  <a href="https://www.kaggle.com/datasets/anasfikrihanif/indonesian-food-and-drink-nutrition-dataset/data">Kaggle Indonesian Food and Drink Nutrition Dataset</a>   <a href="https://id.openfoodfacts.org/api/v2/search?fields=code,product_name,nutriments,image_front_url">Open Food Facts API</a>
-</li>
+<ul>
+  <li><a href="https://www.kaggle.com/datasets/anasfikrihanif/indonesian-food-and-drink-nutrition-dataset/data">Kaggle Indonesian Food and Drink Nutrition Dataset</a>
+  </li>
+  <li>
+    <a href="https://id.openfoodfacts.org/api/v2/search?fields=code,product_name,nutriments,image_front_url">Open Food Facts API</a>
+  </li>
+</ul>
 
 # API Endpoint
 ========================================
