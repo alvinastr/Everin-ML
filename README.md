@@ -6,10 +6,11 @@ This Repository contains the process of developing machine learning project as a
 
 # Clone this repository
 ```
-git clone https://github.com/everin-id/machine-learning-repository.git
+git clone https://github.com/alvinastr/Everin-ML.git
 ```
 ## Install dependencies
 ```
+cd app
 pip install -r requirements.txt
 ```
 
