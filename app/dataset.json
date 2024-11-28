@@ -1,0 +1,352 @@
+[
+  {
+    "Nama Makanan/Minuman": "ABC Kopi Susu",
+    "Kalori (kcal)": 60,
+    "Karbohidrat (g)": 10,
+    "Protein (g)": 1,
+    "Lemak (g)": 2
+  },
+  {
+    "Nama Makanan/Minuman": "Acaraki",
+    "Kalori (kcal)": 50,
+    "Karbohidrat (g)": 12,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Apel",
+    "Kalori (kcal)": 52,
+    "Karbohidrat (g)": 14,
+    "Protein (g)": 0.3,
+    "Lemak (g)": 0.2
+  },
+  {
+    "Nama Makanan/Minuman": "Bakso",
+    "Kalori (kcal)": 150,
+    "Karbohidrat (g)": 10,
+    "Protein (g)": 10,
+    "Lemak (g)": 8
+  },
+  {
+    "Nama Makanan/Minuman": "Beef Teriyaki",
+    "Kalori (kcal)": 200,
+    "Karbohidrat (g)": 15,
+    "Protein (g)": 20,
+    "Lemak (g)": 8
+  },
+  {
+    "Nama Makanan/Minuman": "Beng Beng",
+    "Kalori (kcal)": 120,
+    "Karbohidrat (g)": 15,
+    "Protein (g)": 2,
+    "Lemak (g)": 6
+  },
+  {
+    "Nama Makanan/Minuman": "Chocopie",
+    "Kalori (kcal)": 120,
+    "Karbohidrat (g)": 18,
+    "Protein (g)": 1.5,
+    "Lemak (g)": 5
+  },
+  {
+    "Nama Makanan/Minuman": "Coca-Cola",
+    "Kalori (kcal)": 42,
+    "Karbohidrat (g)": 10.6,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Durian",
+    "Kalori (kcal)": 147,
+    "Karbohidrat (g)": 27,
+    "Protein (g)": 1.5,
+    "Lemak (g)": 5
+  },
+  {
+    "Nama Makanan/Minuman": "Egg Roll",
+    "Kalori (kcal)": 500,
+    "Karbohidrat (g)": 60,
+    "Protein (g)": 8,
+    "Lemak (g)": 25
+  },
+  {
+    "Nama Makanan/Minuman": "Fanta",
+    "Kalori (kcal)": 50,
+    "Karbohidrat (g)": 13,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Fitbar",
+    "Kalori (kcal)": 90,
+    "Karbohidrat (g)": 15,
+    "Protein (g)": 2,
+    "Lemak (g)": 3
+  },
+  {
+    "Nama Makanan/Minuman": "Floridina",
+    "Kalori (kcal)": 50,
+    "Karbohidrat (g)": 12,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Golda Dolce",
+    "Kalori (kcal)": 60,
+    "Karbohidrat (g)": 10,
+    "Protein (g)": 1,
+    "Lemak (g)": 2
+  },
+  {
+    "Nama Makanan/Minuman": "Es Krim",
+    "Kalori (kcal)": 207,
+    "Karbohidrat (g)": 24,
+    "Protein (g)": 4,
+    "Lemak (g)": 11
+  },
+  {
+    "Nama Makanan/Minuman": "Indomie Goreng",
+    "Kalori (kcal)": 385,
+    "Karbohidrat (g)": 54,
+    "Protein (g)": 8,
+    "Lemak (g)": 15
+  },
+  {
+    "Nama Makanan/Minuman": "Iso Plus",
+    "Kalori (kcal)": 20,
+    "Karbohidrat (g)": 5,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Japota",
+    "Kalori (kcal)": 150,
+    "Karbohidrat (g)": 15,
+    "Protein (g)": 2,
+    "Lemak (g)": 9
+  },
+  {
+    "Nama Makanan/Minuman": "Jeruk",
+    "Kalori (kcal)": 47,
+    "Karbohidrat (g)": 12,
+    "Protein (g)": 0.9,
+    "Lemak (g)": 0.1
+  },
+  {
+    "Nama Makanan/Minuman": "KitKat",
+    "Kalori (kcal)": 518,
+    "Karbohidrat (g)": 64,
+    "Protein (g)": 7.2,
+    "Lemak (g)": 26
+  },
+  {
+    "Nama Makanan/Minuman": "Mie Ayam",
+    "Kalori (kcal)": 400,
+    "Karbohidrat (g)": 60,
+    "Protein (g)": 15,
+    "Lemak (g)": 10
+  },
+  {
+    "Nama Makanan/Minuman": "Milo",
+    "Kalori (kcal)": 80,
+    "Karbohidrat (g)": 12,
+    "Protein (g)": 2,
+    "Lemak (g)": 2
+  },
+  {
+    "Nama Makanan/Minuman": "Nasi Goreng",
+    "Kalori (kcal)": 267,
+    "Karbohidrat (g)": 33,
+    "Protein (g)": 6,
+    "Lemak (g)": 12
+  },
+  {
+    "Nama Makanan/Minuman": "Nasi Padang",
+    "Kalori (kcal)": 500,
+    "Karbohidrat (g)": 60,
+    "Protein (g)": 20,
+    "Lemak (g)": 20
+  },
+  {
+    "Nama Makanan/Minuman": "Nasi Uduk",
+    "Kalori (kcal)": 250,
+    "Karbohidrat (g)": 35,
+    "Protein (g)": 5,
+    "Lemak (g)": 10
+  },
+  {
+    "Nama Makanan/Minuman": "Nescafe Ice Black",
+    "Kalori (kcal)": 35,
+    "Karbohidrat (g)": 8,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Nipis Madu",
+    "Kalori (kcal)": 40,
+    "Karbohidrat (g)": 10,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Nu Green Tea",
+    "Kalori (kcal)": 35,
+    "Karbohidrat (g)": 8,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Oat Milk",
+    "Kalori (kcal)": 60,
+    "Karbohidrat (g)": 10,
+    "Protein (g)": 1,
+    "Lemak (g)": 2
+  },
+  {
+    "Nama Makanan/Minuman": "Olatte",
+    "Kalori (kcal)": 60,
+    "Karbohidrat (g)": 10,
+    "Protein (g)": 1,
+    "Lemak (g)": 2
+  },
+  {
+    "Nama Makanan/Minuman": "Onigiri",
+    "Kalori (kcal)": 180,
+    "Karbohidrat (g)": 35,
+    "Protein (g)": 4,
+    "Lemak (g)": 2
+  },
+  {
+    "Nama Makanan/Minuman": "Oreo",
+    "Kalori (kcal)": 480,
+    "Karbohidrat (g)": 70,
+    "Protein (g)": 5,
+    "Lemak (g)": 20
+  },
+  {
+    "Nama Makanan/Minuman": "Pacar Cina",
+    "Kalori (kcal)": 350,
+    "Karbohidrat (g)": 80,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Pisang",
+    "Kalori (kcal)": 89,
+    "Karbohidrat (g)": 23,
+    "Protein (g)": 1.1,
+    "Lemak (g)": 0.3
+  },
+  {
+    "Nama Makanan/Minuman": "Pocari Sweat",
+    "Kalori (kcal)": 25,
+    "Karbohidrat (g)": 6.2,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Pocky Chocolate",
+    "Kalori (kcal)": 500,
+    "Karbohidrat (g)": 70,
+    "Protein (g)": 8,
+    "Lemak (g)": 20
+  },
+  {
+    "Nama Makanan/Minuman": "Rendang",
+    "Kalori (kcal)": 195,
+    "Karbohidrat (g)": 5,
+    "Protein (g)": 19,
+    "Lemak (g)": 12
+  },
+  {
+    "Nama Makanan/Minuman": "Root Beer Kaleng",
+    "Kalori (kcal)": 41,
+    "Karbohidrat (g)": 10.6,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Roti Tawar",
+    "Kalori (kcal)": 265,
+    "Karbohidrat (g)": 49,
+    "Protein (g)": 9,
+    "Lemak (g)": 3
+  },
+  {
+    "Nama Makanan/Minuman": "Sari Gandum",
+    "Kalori (kcal)": 480,
+    "Karbohidrat (g)": 70,
+    "Protein (g)": 8,
+    "Lemak (g)": 20
+  },
+  {
+    "Nama Makanan/Minuman": "Semangka",
+    "Kalori (kcal)": 30,
+    "Karbohidrat (g)": 8,
+    "Protein (g)": 0.6,
+    "Lemak (g)": 0.2
+  },
+  {
+    "Nama Makanan/Minuman": "Sprite",
+    "Kalori (kcal)": 41,
+    "Karbohidrat (g)": 10.6,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Sushi",
+    "Kalori (kcal)": 150,
+    "Karbohidrat (g)": 28,
+    "Protein (g)": 6,
+    "Lemak (g)": 2
+  },
+  {
+    "Nama Makanan/Minuman": "Tahu Goreng",
+    "Kalori (kcal)": 271,
+    "Karbohidrat (g)": 4,
+    "Protein (g)": 12,
+    "Lemak (g)": 24
+  },
+  {
+    "Nama Makanan/Minuman": "Tango",
+    "Kalori (kcal)": 500,
+    "Karbohidrat (g)": 70,
+    "Protein (g)": 8,
+    "Lemak (g)": 20
+  },
+  {
+    "Nama Makanan/Minuman": "Teh Botol",
+    "Kalori (kcal)": 35,
+    "Karbohidrat (g)": 8,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Teh Kotak",
+    "Kalori (kcal)": 35,
+    "Karbohidrat (g)": 8,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Ultra Milk",
+    "Kalori (kcal)": 60,
+    "Karbohidrat (g)": 10,
+    "Protein (g)": 3,
+    "Lemak (g)": 2
+  },
+  {
+    "Nama Makanan/Minuman": "You C1000 Orange",
+    "Kalori (kcal)": 50,
+    "Karbohidrat (g)": 12,
+    "Protein (g)": 0,
+    "Lemak (g)": 0
+  },
+  {
+    "Nama Makanan/Minuman": "Yogurt",
+    "Kalori (kcal)": 59,
+    "Karbohidrat (g)": 12,
+    "Protein (g)": 3.5,
+    "Lemak (g)": 0.4
+  }
+]
