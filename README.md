@@ -1,23 +1,20 @@
 # Machine Learning Repository of Everin
-========================================
 
 # Overview
-========================================
 
 This Repository contains the process of developing machine learning project as a complementary feature in the Everin Application as a part of Bangkit Academy 2024 Product Based Capstone Project.
 
 # Clone this repository
-========================================
 ```
-git clone https://github.com/everin-id/machine-learning-repository.git
+git clone https://github.com/alvinastr/Everin-ML.git
 ```
 ## Install dependencies
 ```
+cd app
 pip install -r requirements.txt
 ```
 
 # Tech Stack
-========================================
 - Python
 - TensorFlow
 - Keras
@@ -28,10 +25,13 @@ pip install -r requirements.txt
 - Matplotlib
 
 # Dataset
-========================================
-
-<a href="https://www.kaggle.com/datasets/anasfikrihanif/indonesian-food-and-drink-nutrition-dataset/data">Kaggle Indonesian Food and Drink Nutrition Dataset</a>
-<a href="https://id.openfoodfacts.org/api/v2/search?fields=code,product_name,nutriments,image_front_url">Open Food Facts API</a>
+<ul>
+  <li><a href="https://www.kaggle.com/datasets/anasfikrihanif/indonesian-food-and-drink-nutrition-dataset/data">Kaggle Indonesian Food and Drink Nutrition Dataset</a>
+  </li>
+  <li>
+    <a href="https://id.openfoodfacts.org/api/v2/search?fields=code,product_name,nutriments,image_front_url">Open Food Facts API</a>
+  </li>
+</ul>
 
 # API Endpoint
 ========================================
