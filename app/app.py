@@ -7,6 +7,11 @@ from PIL import Image
 import os
 from sklearn.neighbors import NearestNeighbors
 import pandas as pd
+import logging
+
+# Setup logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 
@@ -15,7 +20,115 @@ cnn_model = None
 knn_model = None
 dataset = None
 
-# Define calculator functions
+def create_knn_model(df):
+    """Create and train KNN model"""
+    features = df[['Karbohidrat (g)', 'Protein (g)', 'Lemak (g)']].values
+    knn = NearestNeighbors(n_neighbors=5, metric='euclidean')
+    knn.fit(features)
+    return knn
+
+def load_models():
+    """Function to load all required models"""
+    global cnn_model, knn_model, dataset
+    
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    
+    try:
+        model_path = os.path.join(base_path, 'model', 'v1.h5')
+        logger.info(f"Loading CNN model from: {model_path}")
+        cnn_model = tf.keras.models.load_model(model_path, compile=False)
+        cnn_model.compile(
+            optimizer='adam',
+            loss='categorical_crossentropy',
+            metrics=['accuracy']
+        )
+        logger.info("CNN model loaded successfully")
+    except Exception as e:
+        logger.error(f"Error loading CNN model: {str(e)}")
+        raise
+
+    try:
+        dataset_path = os.path.join(base_path, 'dataset.json')
+        logger.info(f"Loading dataset from: {dataset_path}")
+        with open(dataset_path) as f:
+            dataset = json.load(f)
+        logger.info("Dataset loaded successfully")
+        
+        df = pd.DataFrame(dataset)
+        
+        knn_model = create_knn_model(df)
+        logger.info("KNN model created successfully")
+        
+    except Exception as e:
+        logger.error(f"Error loading dataset or creating KNN model: {str(e)}")
+        raise
+
+# Try to load models when app starts
+try:
+    logger.info("Starting model loading...")
+    load_models()
+    logger.info("Models loaded successfully")
+except Exception as e:
+    logger.error(f"Failed to load models: {str(e)}")
+    pass
+
+@app.route('/status', methods=['GET'])
+def check_status():
+    """Check if models are loaded properly"""
+    return jsonify({
+        'cnn_model_loaded': cnn_model is not None,
+        'knn_model_loaded': knn_model is not None,
+        'dataset_loaded': dataset is not None
+    })
+
+def predict_food(image_path):
+    """Predict food from image and get nutrition info"""
+    try:
+        img = Image.open(image_path)
+        img = img.resize((224, 224))
+        img_array = np.array(img) / 255.0
+        img_array = np.expand_dims(img_array, axis=0)
+        
+        prediction = cnn_model.predict(img_array)
+        predicted_class = np.argmax(prediction, axis=1)[0]
+        confidence = float(np.max(prediction))
+        
+        food_name = dataset[predicted_class]["Nama Makanan/Minuman"]
+        nutrition = {
+            "kalori": dataset[predicted_class]["Kalori (kcal)"],
+            "karbohidrat": dataset[predicted_class]["Karbohidrat (g)"],
+            "protein": dataset[predicted_class]["Protein (g)"],
+            "lemak": dataset[predicted_class]["Lemak (g)"]
+        }
+        return food_name, nutrition, confidence
+    except Exception as e:
+        logger.error(f"Error in predict_food: {str(e)}")
+        raise
+
+def get_food_recommendations(food_features):
+    """Get food recommendations using KNN model"""
+    try:
+        # Get nearest neighbors
+        distances, indices = knn_model.kneighbors([food_features])
+        
+        recommendations = []
+        for idx in indices[0]:
+            food = dataset[idx]
+            recommendations.append({
+                "nama": food["Nama Makanan/Minuman"],
+                "nutrition": {
+                    "kalori": food["Kalori (kcal)"],
+                    "karbohidrat": food["Karbohidrat (g)"],
+                    "protein": food["Protein (g)"],
+                    "lemak": food["Lemak (g)"]
+                },
+                "similarity_score": float(1 / (1 + distances[0][len(recommendations)]))
+            })
+        return recommendations
+    except Exception as e:
+        logger.error(f"Error in get_food_recommendations: {str(e)}")
+        raise
+
 def hitung_bmr_tdee(berat_badan, tinggi_badan, umur, jenis_kelamin, tingkat_aktivitas):
     """Calculate BMR and TDEE"""
     if jenis_kelamin.lower() == 'pria':
@@ -47,105 +160,17 @@ def hitung_kebutuhan_makronutrien(tdee):
 
     return gram_karbohidrat, gram_protein, gram_lemak
 
-def create_knn_model(df):
-    """Create and train KNN model"""
-    features = df[['Karbohidrat (g)', 'Protein (g)', 'Lemak (g)']].values
-    knn = NearestNeighbors(n_neighbors=5, metric='euclidean')
-    knn.fit(features)
-    return knn
-
-def load_models():
-    global cnn_model, knn_model, dataset
-    
-    try:
-        # Load CNN model
-        cnn_model = tf.keras.models.load_model('model/v1.h5', compile=False)
-        cnn_model.compile(
-            optimizer='adam',
-            loss='categorical_crossentropy',
-            metrics=['accuracy']
-        )
-        print("CNN model loaded successfully")
-    except Exception as e:
-        print(f"Error loading CNN model: {str(e)}")
-        raise
-
-    try:
-        # Load dataset
-        with open('dataset.json') as f:
-            dataset = json.load(f)
-        print("Dataset loaded successfully")
-        
-        # Create DataFrame from dataset
-        df = pd.DataFrame(dataset)
-        
-        # Create and train KNN model
-        knn_model = create_knn_model(df)
-        print("KNN model created successfully")
-        
-    except Exception as e:
-        print(f"Error loading dataset or creating KNN model: {str(e)}")
-        raise
-
-def predict_food(image_path):
-    """Predict food from image and get nutrition info"""
-    try:
-        img = Image.open(image_path)
-        img = img.resize((224, 224))
-        img_array = np.array(img) / 255.0
-        img_array = np.expand_dims(img_array, axis=0)
-        
-        prediction = cnn_model.predict(img_array)
-        predicted_class = np.argmax(prediction, axis=1)[0]
-        confidence = float(np.max(prediction))
-        
-        food_name = dataset[predicted_class]["Nama Makanan/Minuman"]
-        nutrition = {
-            "kalori": dataset[predicted_class]["Kalori (kcal)"],
-            "karbohidrat": dataset[predicted_class]["Karbohidrat (g)"],
-            "protein": dataset[predicted_class]["Protein (g)"],
-            "lemak": dataset[predicted_class]["Lemak (g)"]
-        }
-        return food_name, nutrition, confidence
-    except Exception as e:
-        print(f"Error in predict_food: {str(e)}")
-        raise
-
-def get_food_recommendations(food_features):
-    """Get food recommendations using KNN model"""
-    try:
-        # Get nearest neighbors
-        distances, indices = knn_model.kneighbors([food_features])
-        
-        recommendations = []
-        for idx in indices[0]:
-            food = dataset[idx]
-            recommendations.append({
-                "nama": food["Nama Makanan/Minuman"],
-                "nutrition": {
-                    "kalori": food["Kalori (kcal)"],
-                    "karbohidrat": food["Karbohidrat (g)"],
-                    "protein": food["Protein (g)"],
-                    "lemak": food["Lemak (g)"]
-                },
-                "similarity_score": float(1 / (1 + distances[0][len(recommendations)]))
-            })
-        return recommendations
-    except Exception as e:
-        print(f"Error in get_food_recommendations: {str(e)}")
-        raise
-
 @app.route('/predict', methods=['POST'])
 def predict():
     """Endpoint for food prediction from image"""
+    if cnn_model is None or dataset is None:
+        return jsonify({'error': 'Models not loaded properly'}), 503
+        
     if 'file' not in request.files:
         return jsonify({'error': 'No file uploaded'}), 400
         
-    file = request.files['file']
-    if file.filename == '':
-        return jsonify({'error': 'No file selected'}), 400
-        
     try:
+        file = request.files['file']
         # Create temp directory if it doesn't exist
         os.makedirs('temp', exist_ok=True)
         
@@ -173,6 +198,7 @@ def predict():
         })
         
     except Exception as e:
+        logger.error(f"Error in predict endpoint: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
 @app.route('/calculate', methods=['POST'])
@@ -206,11 +232,15 @@ def calculate():
         })
         
     except Exception as e:
+        logger.error(f"Error in calculate endpoint: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
     """Endpoint for food recommendations based on nutrition values"""
+    if knn_model is None or dataset is None:
+        return jsonify({'error': 'Models not loaded properly'}), 503
+        
     try:
         data = request.json
         required_fields = ['karbohidrat', 'protein', 'lemak']
@@ -231,11 +261,15 @@ def recommend():
         })
         
     except Exception as e:
+        logger.error(f"Error in recommend endpoint: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
 @app.route('/recommend-by-name', methods=['POST'])
 def recommend_by_name():
     """Endpoint for food recommendations based on food name"""
+    if knn_model is None or dataset is None:
+        return jsonify({'error': 'Models not loaded properly'}), 503
+        
     try:
         data = request.json
         if 'food_name' not in data:
@@ -276,6 +310,7 @@ def recommend_by_name():
         })
         
     except Exception as e:
+        logger.error(f"Error in recommend-by-name endpoint: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
