@@ -22,10 +22,15 @@ dataset = None
 
 def create_knn_model(df):
     """Create and train KNN model"""
-    features = df[['Karbohidrat (g)', 'Protein (g)', 'Lemak (g)']].values
-    knn = NearestNeighbors(n_neighbors=5, metric='euclidean')
-    knn.fit(features)
-    return knn
+    try:
+        features = df[['Karbohidrat (g)', 'Protein (g)', 'Lemak (g)']].values
+        knn = NearestNeighbors(n_neighbors=5, metric='euclidean')
+        knn.fit(features)
+        logger.info("KNN model created successfully")
+        return knn
+    except Exception as e:
+        logger.error(f"Error creating KNN model: {str(e)}")
+        raise
 
 def load_models():
     """Function to load all required models"""
@@ -108,21 +113,24 @@ def predict_food(image_path):
 def get_food_recommendations(food_features):
     """Get food recommendations using KNN model"""
     try:
+        # Convert food_features to numpy array and reshape if needed
+        food_features = np.array(food_features).reshape(1, -1)
+        
         # Get nearest neighbors
-        distances, indices = knn_model.kneighbors([food_features])
+        distances, indices = knn_model.kneighbors(food_features)
         
         recommendations = []
-        for idx in indices[0]:
-            food = dataset[idx]
+        for i, idx in enumerate(indices[0]):
+            food = dataset[int(idx)]
             recommendations.append({
                 "nama": food["Nama Makanan/Minuman"],
                 "nutrition": {
-                    "kalori": food["Kalori (kcal)"],
-                    "karbohidrat": food["Karbohidrat (g)"],
-                    "protein": food["Protein (g)"],
-                    "lemak": food["Lemak (g)"]
+                    "kalori": float(food["Kalori (kcal)"]),  # Convert to float
+                    "karbohidrat": float(food["Karbohidrat (g)"]),
+                    "protein": float(food["Protein (g)"]),
+                    "lemak": float(food["Lemak (g)"])
                 },
-                "similarity_score": float(1 / (1 + distances[0][len(recommendations)]))
+                "similarity_score": float(1 / (1 + distances[0][i]))
             })
         return recommendations
     except Exception as e:
@@ -239,30 +247,56 @@ def calculate():
 def recommend():
     """Endpoint for food recommendations based on nutrition values"""
     if knn_model is None or dataset is None:
+        logger.error("Models not loaded properly")
         return jsonify({'error': 'Models not loaded properly'}), 503
         
     try:
         data = request.json
+        if not data:
+            logger.error("No JSON data received")
+            return jsonify({'error': 'No data provided'}), 400
+            
         required_fields = ['karbohidrat', 'protein', 'lemak']
         
         if not all(field in data for field in required_fields):
-            return jsonify({'error': 'Missing required fields'}), 400
+            missing_fields = [field for field in required_fields if field not in data]
+            logger.error(f"Missing fields: {missing_fields}")
+            return jsonify({'error': f'Missing required fields: {missing_fields}'}), 400
+        
+        # Validate numeric values and convert to float
+        try:
+            food_features = [
+                float(data['karbohidrat']),
+                float(data['protein']),
+                float(data['lemak'])
+            ]
+        except ValueError as e:
+            logger.error(f"Invalid numeric values: {str(e)}")
+            return jsonify({'error': 'All nutritional values must be numbers'}), 400
             
-        food_features = [
-            data['karbohidrat'],
-            data['protein'],
-            data['lemak']
-        ]
+        # Validate non-negative values
+        if any(x < 0 for x in food_features):
+            logger.error("Negative nutritional values provided")
+            return jsonify({'error': 'Nutritional values cannot be negative'}), 400
         
         recommendations = get_food_recommendations(food_features)
         
+        if not recommendations:
+            logger.warning("No recommendations found")
+            return jsonify({'message': 'No similar foods found', 'recommendations': []}), 200
+        
         return jsonify({
+            'input_values': {
+                'karbohidrat': food_features[0],
+                'protein': food_features[1],
+                'lemak': food_features[2]
+            },
             'recommendations': recommendations
         })
         
     except Exception as e:
         logger.error(f"Error in recommend endpoint: {str(e)}")
-        return jsonify({'error': str(e)}), 500
+        return jsonify({'error': 'Internal server error occurred'}), 500
 
 @app.route('/recommend-by-name', methods=['POST'])
 def recommend_by_name():
@@ -276,22 +310,22 @@ def recommend_by_name():
             return jsonify({'error': 'Missing food_name field'}), 400
             
         # Find the food in dataset
-        food_name = data['food_name'].lower()
+        food_name = data['food_name'].lower().strip()  # Add strip() to remove whitespace
         food_data = None
         
-        for food in dataset:
-            if food["Nama Makanan/Minuman"].lower() == food_name:
+        for i, food in enumerate(dataset):
+            if food["Nama Makanan/Minuman"].lower().strip() == food_name:
                 food_data = food
                 break
                 
         if food_data is None:
             return jsonify({'error': 'Food not found in database'}), 404
             
-        # Get food features
+        # Get food features and convert to float
         food_features = [
-            food_data["Karbohidrat (g)"],
-            food_data["Protein (g)"],
-            food_data["Lemak (g)"]
+            float(food_data["Karbohidrat (g)"]),
+            float(food_data["Protein (g)"]),
+            float(food_data["Lemak (g)"])
         ]
         
         recommendations = get_food_recommendations(food_features)
