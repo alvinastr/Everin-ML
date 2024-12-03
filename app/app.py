@@ -252,6 +252,9 @@ def recommend():
         
     try:
         data = request.json
+        # Add debug logging
+        logger.info(f"Received data: {data}")
+        
         if not data:
             logger.error("No JSON data received")
             return jsonify({'error': 'No data provided'}), 400
@@ -262,6 +265,10 @@ def recommend():
             missing_fields = [field for field in required_fields if field not in data]
             logger.error(f"Missing fields: {missing_fields}")
             return jsonify({'error': f'Missing required fields: {missing_fields}'}), 400
+        
+        # Add debug logging for values
+        logger.info(f"Extracted values - karbohidrat: {data.get('karbohidrat')}, "
+                   f"protein: {data.get('protein')}, lemak: {data.get('lemak')}")
         
         # Validate numeric values and convert to float
         try:
@@ -296,29 +303,37 @@ def recommend():
         
     except Exception as e:
         logger.error(f"Error in recommend endpoint: {str(e)}")
-        return jsonify({'error': 'Internal server error occurred'}), 500
+        logger.error(f"Request data: {request.get_data()}")  # Add raw request data logging
+        return jsonify({'error': str(e)}), 500
 
 @app.route('/recommend-by-name', methods=['POST'])
 def recommend_by_name():
     """Endpoint for food recommendations based on food name"""
     if knn_model is None or dataset is None:
+        logger.error("Models not loaded properly")
         return jsonify({'error': 'Models not loaded properly'}), 503
         
     try:
         data = request.json
+        # Add debug logging
+        logger.info(f"Received data: {data}")
+        
         if 'food_name' not in data:
+            logger.error("Missing food_name field")
             return jsonify({'error': 'Missing food_name field'}), 400
             
         # Find the food in dataset
-        food_name = data['food_name'].lower().strip()  # Add strip() to remove whitespace
-        food_data = None
+        food_name = data['food_name'].lower().strip()
+        logger.info(f"Searching for food: {food_name}")
         
+        food_data = None
         for i, food in enumerate(dataset):
             if food["Nama Makanan/Minuman"].lower().strip() == food_name:
                 food_data = food
                 break
                 
         if food_data is None:
+            logger.error(f"Food not found: {food_name}")
             return jsonify({'error': 'Food not found in database'}), 404
             
         # Get food features and convert to float
@@ -328,16 +343,17 @@ def recommend_by_name():
             float(food_data["Lemak (g)"])
         ]
         
+        logger.info(f"Found food features: {food_features}")
         recommendations = get_food_recommendations(food_features)
         
         return jsonify({
             'input_food': {
                 'nama': food_data["Nama Makanan/Minuman"],
                 'nutrition': {
-                    'kalori': food_data["Kalori (kcal)"],
-                    'karbohidrat': food_data["Karbohidrat (g)"],
-                    'protein': food_data["Protein (g)"],
-                    'lemak': food_data["Lemak (g)"]
+                    'kalori': float(food_data["Kalori (kcal)"]),
+                    'karbohidrat': float(food_data["Karbohidrat (g)"]),
+                    'protein': float(food_data["Protein (g)"]),
+                    'lemak': float(food_data["Lemak (g)"])
                 }
             },
             'recommendations': recommendations
@@ -345,6 +361,7 @@ def recommend_by_name():
         
     except Exception as e:
         logger.error(f"Error in recommend-by-name endpoint: {str(e)}")
+        logger.error(f"Request data: {request.get_data()}")  # Add raw request data logging
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
